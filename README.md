@@ -56,13 +56,19 @@ bce0f8bebb7c52377b554062373214a1  INM7102AVD_M7100AVD_RTL8188ETV_8188EU_GC0329_s
  ro.setupwizard.mode=OPTIONAL
  ro.com.google.gmsversion=4.4_r3
 ```
-* u-boot.fex, version string ``U-Boot 2011.09-rc1-00098-g4239ee7 (May 30 2014 - 08:57:03)``, was taken from ``M7100AVD A33 m7100nobt 20140603`` firmware shared on pan.baidu.com (``M7100AVD A33 wifi+bt 20140604`` has the same u-boot version) and updated using ``mod_update/update_uboot u-boot.fex inm7102avd_dumped_script.bin`` command - the result was used to build the firmware image as available in this repo
+* u-boot.fex, version string ``U-Boot 2011.09-rc1-00098-g4239ee7 (May 30 2014 - 08:57:03)``, was originally taken from ``M7100AVD A33 m7100nobt 20140603`` firmware shared on pan.baidu.com (``M7100AVD A33 wifi+bt 20140604`` has the same u-boot version) and updated using ``mod_update/update_uboot u-boot.fex inm7102avd_dumped_script.bin``; it is identical
+  * with the one inside ``INM7102AVD_M7100AVD_RTL8188ETV_8188EU_GC0329_sun8iw5p1_astar_m7100nobt_20140917.img``
+  * with ``u-boot.fex.from_fwimg_m7100avd_20140604_but_with_inm7102avd_script.bin``
 
-* trying to use extracts from a live and running inm7102avd device's ddr ram in FES mode did not result in a flashable firmware image; since they have a slightly different version string, ``U-Boot 2011.09-rc1-00000-g4097eae-dirty (Sep 17 2014 - 13:35:40)``, these are in this repo for reference and experimentation
+* trying to use extracts from a live and running inm7102avd device's ddr ram in FES mode did not result in a flashable firmware image
+  * since they have a slightly different version string, ``U-Boot 2011.09-rc1-00000-g4097eae-dirty (Sep 17 2014 - 13:35:40)``, these are in this repo for reference and experimentation
+  * note that both copies are not identical, presumably because uboot code is self-modifying when run
+  * uboot's magic strings were not found in NAND, FELix even turns off NAND before flashing uboot
+  * if you know where that copy lives on TAB744 (SPI??) it'd be best to read out and use this cold copy (that is, if you really care to very closely build/recover the factory state)
 
-* ``M7100AVD A33 m7100nobt sdkv1.0rc7 20140617`` on pan.baidu.com might also be worth a look, version stringed ``U-Boot 2011.09-rc1-00009-g9b33a0b-dirty (Jun 06 2014 - 10:17:00)``; if you experience problems with the first, try exchanging ``u-boot.fex`` by ``u-boot.fex.from_fwimg_m7100avd_20140617_but_with_inm7102avd_script.bin``, repack and reflash
+* ``M7100AVD A33 m7100nobt sdkv1.0rc7 20140617`` on pan.baidu.com might also be worth a look, version stringed ``U-Boot 2011.09-rc1-00009-g9b33a0b-dirty (Jun 06 2014 - 10:17:00)``; if you experience problems with the first, try unpacking the fw img, exchange ``u-boot.fex`` inside by ``u-boot.fex.from_fwimg_m7100avd_20140617_but_with_inm7102avd_script.bin``, repack and reflash (untested!)
 
-* a quick and dirty indicator to find out, if an u-boot.fex is married with the correct script.bin is to grep it for TAB744; all u-boot.fex versions of this repo were updated with the same script.bin, from and for TAB744
+* all u-boot.fex versions of this repo were updated with the same script.bin, from and for TAB744 20140917
 
 
 ## modification _not_ inside img, but useful
