@@ -32,6 +32,8 @@ bce0f8bebb7c52377b554062373214a1  INM7102AVD_M7100AVD_RTL8188ETV_8188EU_GC0329_s
 -persist.sys.usb.config=none
 +ro.debuggable=1
 +persist.sys.usb.config=adb
+```
+```diff
 --- system/build.prop.orig
 +++ system/build.prop
 @@ -69,7 +69,7 @@
