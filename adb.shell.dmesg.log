@@ -1,0 +1,1138 @@
+.block_info: ed605e5c 
+<4>[    3.041965] [ND]zone->current_block.block_info->phy_block.Block_NO: 671 
+<4>[    3.041974] [ND]zone->current_block.page_used: 0 
+<4>[    3.041982] [ND]zone->current_block.block_info->block_used_count: 0 
+<4>[    3.041991] [ND]zone->temp_page_buf: ed658000 
+<4>[    3.041998] [ND]zone->max_erase_num: 0 
+<4>[    3.042005] [ND]zone->total_sector_want_read: 0 
+<4>[    3.042013] [ND]zone->total_sector_want_write: 0 
+<4>[    3.042020] [ND]zone->total_page_want_write: 0 
+<4>[    3.042028] [ND]zone->total_page_want_read: 0 
+<4>[    3.042035] [ND]zone->total_page_real_write: 0 
+<4>[    3.042042] [ND]zone->total_page_real_read: 0 
+<4>[    3.042050] [ND]zone->total_block_real_erase: 0 
+<4>[    3.042057] [ND]zone->cache.cache_totals: 0 
+<4>[    3.042064] [ND]zone->cfg->nftl_dont_use_cache: 0 
+<4>[    3.042072] [ND]zone->cfg->nftl_use_cache_sort: 1 
+<4>[    3.042079] [ND]zone->cfg->nftl_support_gc_read_reclaim: 0 
+<4>[    3.042088] [ND]zone->cfg->nftl_support_wear_leveling: 1 
+<4>[    3.042096] [ND]zone->cfg->nftl_need_erase: 0 
+<4>[    3.042103] [ND]zone->cfg->nftl_min_free_block_num: 19 
+<4>[    3.042111] [ND]zone->cfg->nftl_gc_threshold_free_block_num: 8 
+<4>[    3.042120] [ND]zone->cfg->nftl_min_free_block: 4 
+<4>[    3.042127] [ND]zone->cfg->nftl_gc_threshold_ratio_numerator: 2 
+<4>[    3.042136] [ND]zone->cfg->nftl_gc_threshold_ratio_denominator: 3 
+<4>[    3.042145] [ND]zone->cfg->nftl_max_cache_num: 500 
+<4>[    3.042152] [ND]zone->cfg->nftl_max_cache_write_num: 400 
+<4>[    3.042160] [ND]zone->cfg->nftl_cross_talk: 0 
+<4>[    3.042167] [ND]nftl ok!
+<6>[    3.063035]  nandk: unknown partition table
+<4>[    3.063338] [NAND]nand init end 
+<6>[    3.065002] init: command 'insmod' r=0
+<6>[    3.065161] init: command 'symlink' r=0
+<6>[    3.065222] init: command 'symlink' r=0
+<6>[    3.065277] init: command 'symlink' r=0
+<6>[    3.065477] init: command 'mkdir' r=0
+<7>[    3.120225] SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+<6>[    3.120309] init: command 'mount' r=0
+<6>[    3.120630] init: command 'mkdir' r=0
+<7>[    3.120841] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<6>[    3.120902] init: command 'mount' r=0
+<6>[    3.121132] init: command 'mkdir' r=0
+<6>[    3.121263] init: command 'mount' r=-1
+<6>[    3.121416] init: command 'write' r=0
+<6>[    3.121484] init: command 'chown' r=-2
+<6>[    3.121543] init: command 'chmod' r=-2
+<6>[    3.121723] init: command 'mkdir' r=0
+<6>[    3.121809] init: command 'write' r=0
+<6>[    3.121893] init: command 'write' r=0
+<6>[    3.121956] init: command 'chown' r=-2
+<6>[    3.122020] init: command 'chmod' r=-2
+<6>[    3.122239] init: command 'mkdir' r=0
+<6>[    3.122437] init: command 'mkdir' r=0
+<6>[    3.122635] init: command 'mkdir' r=0
+<6>[    3.122755] init: command 'mkdir' r=0
+<6>[    3.122921] init: command 'mkdir' r=0
+<6>[    3.123050] init: command 'mkdir' r=0
+<6>[    3.123170] init: command 'mkdir' r=0
+<6>[    3.123304] init: command 'mkdir' r=0
+<7>[    3.123460] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<6>[    3.123503] init: command 'mount' r=0
+<6>[    3.123646] init: command 'mkdir' r=0
+<6>[    3.123792] init: command 'mkdir' r=0
+<6>[    3.123987] init: command 'mkdir' r=0
+<7>[    3.124124] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<6>[    3.124162] init: command 'mount' r=0
+<6>[    3.124298] init: command 'mkdir' r=0
+<7>[    3.124446] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<6>[    3.124485] init: command 'mount' r=0
+<6>[    3.124667] init: command 'write' r=0
+<6>[    3.124712] init: command 'write' r=-2
+<6>[    3.124819] init: command 'write' r=0
+<6>[    3.124860] init: command 'write' r=-2
+<6>[    3.124897] init: command 'write' r=-2
+<6>[    3.124933] init: command 'write' r=-2
+<6>[    3.125005] init: command 'write' r=0
+<6>[    3.125078] init: command 'write' r=0
+<6>[    3.125153] init: command 'write' r=0
+<6>[    3.125228] init: command 'write' r=0
+<6>[    3.125319] init: command 'write' r=0
+<6>[    3.125395] init: command 'write' r=0
+<6>[    3.125529] init: command 'write' r=0
+<6>[    3.125610] init: command 'write' r=0
+<6>[    3.125683] init: command 'write' r=0
+<6>[    3.126471] init: command 'mkdir' r=0
+<7>[    3.170177] SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+<6>[    3.170241] init: command 'mount' r=0
+<6>[    3.170308] init: command 'chown' r=0
+<6>[    3.170497] init: command 'chown' r=0
+<6>[    3.170573] init: command 'chmod' r=0
+<6>[    3.170621] init: command 'write' r=-22
+<6>[    3.170663] init: command 'write' r=0
+<6>[    3.170702] init: command 'write' r=0
+<6>[    3.171113] init: command 'mkdir' r=0
+<6>[    3.171173] init: command 'chown' r=0
+<6>[    3.171218] init: command 'chmod' r=0
+<6>[    3.171256] init: command 'write' r=0
+<6>[    3.171298] init: command 'write' r=0
+<6>[    3.171337] init: command 'write' r=0
+<6>[    3.171695] init: command 'mkdir' r=0
+<6>[    3.171747] init: command 'chown' r=0
+<6>[    3.171789] init: command 'chmod' r=0
+<6>[    3.171832] init: command 'write' r=0
+<6>[    3.171875] init: command 'write' r=0
+<6>[    3.171916] init: command 'write' r=0
+<6>[    3.172144] init: command 'chown' r=0
+<6>[    3.172282] init: command 'chown' r=0
+<6>[    3.172369] init: command 'chmod' r=0
+<6>[    3.172747] init: command 'mkdir' r=0
+<6>[    3.172777] init: processing action 0x51c70 (init)
+<6>[    3.172794] init: command 'export' r=0
+<6>[    3.172809] init: command 'export' r=0
+<6>[    3.172824] init: command 'export' r=0
+<6>[    3.172838] init: command 'export' r=0
+<6>[    3.172852] init: command 'export' r=0
+<6>[    3.172867] init: command 'export' r=0
+<6>[    3.172881] init: command 'export' r=0
+<6>[    3.172896] init: command 'export' r=0
+<6>[    3.172910] init: command 'export' r=0
+<6>[    3.172926] init: command 'export' r=0
+<6>[    3.172939] init: processing action 0x55230 (init)
+<6>[    3.172953] init: command 'export' r=0
+<6>[    3.173093] init: command 'mkdir' r=0
+<6>[    3.173163] init: command 'symlink' r=0
+<6>[    3.173292] init: command 'mkdir' r=0
+<6>[    3.173417] init: command 'mkdir' r=0
+<6>[    3.173540] init: command 'mount' r=0
+<6>[    3.173680] init: command 'mkdir' r=0
+<6>[    3.173698] init: processing action 0x55398 (early-fs)
+<3>[    3.174910] fs_mgr: block device /dev/block/by-name/system
+<3>[    3.181062] fs_mgr: block device /dev/block/by-name/cache
+<3>[    3.187052] fs_mgr: block device /dev/block/by-name/data
+<6>[    3.202415] EXT4-fs (nandd): mounted filesystem with ordered data mode. Opts: (null)
+<7>[    3.202465] SELinux: initialized (dev nandd, type ext4), uses xattr
+<3>[    3.203146] EXT4-fs (nandh): VFS: Can't find ext4 filesystem
+<3>[    3.290240] fs_mgr: begin to format ext4 buffer : /dev/block/nandh  [ND]flush cache 330 0!
+<3>[    4.278663] fs_mgr: finish format to ext4 :/dev/block/nandh
+<6>[    4.284760] fs_mgr: Running /system/bin/e2fsck on /dev/block/by-name/cache
+<4>[    4.314454] [ND]flush cache 1 0!
+<6>[    4.315216] e2fsck: e2fsck 1.41.14 (22-Dec-2010)
+<6>[    4.315301] e2fsck: /dev/block/by-name/cache: clean, 11/32768 files, 4206/131072 blocks
+<6>[    4.318672] EXT4-fs (nandh): mounted filesystem with ordered data mode. Opts: nomblk_io_submit,barrier=1
+<7>[    4.318714] SELinux: initialized (dev nandh, type ext4), uses xattr
+<3>[    4.319196] EXT4-fs (nande): VFS: Can't find ext4 filesystem
+<4>[    4.327710] [ND]flush cache 1 0!
+<3>[    4.420614] fs_mgr: begin to format ext4 buffer : /dev/block/nande  
+<3>[    4.428080] fs_mgr: begin to format ext4 reserve : 4 [ND]flush cache 400 0!
+<3>[    6.043596] fs_mgr: finish format to ext4 :/dev/block/nande
+<6>[    6.049599] fs_mgr: Running /system/bin/e2fsck on /dev/block/by-name/data
+<4>[    6.065184] [ND]flush cache 1 0!
+<6>[    6.065954] e2fsck: e2fsck 1.41.14 (22-Dec-2010)
+<6>[    6.066007] e2fsck: /dev/block/by-name/data: clean, 11/65536 files, 8535/262143 blocks
+<6>[    6.073666] EXT4-fs (nande): mounted filesystem with ordered data mode. Opts: nomblk_io_submit,barrier=1,noauto_da_alloc
+<7>[    6.073712] SELinux: initialized (dev nande, type ext4), uses xattr
+<6>[    6.074387] init: command 'mount_all' r=0
+<6>[    6.074446] init: command 'setprop' r=0
+<6>[    6.325890] [DISP]disp_module_init
+<6>[    6.326690] [DISP]disp_probe
+<6>[    6.331099] [DISP]Fb_Init
+<4>[    6.331204] [DISP] parser_disp_init_para,line:130:    fetch script data disp_init.screen2_output_type fail
+<4>[    6.331221] [DISP] parser_disp_init_para,line:147:    fetch script data disp_init.screen2_output_mode fail
+<4>[    6.331245] [DISP] parser_disp_init_para,line:208:    fetch script data disp_init.fb2_format fail
+<4>[    6.331260] [DISP] parser_disp_init_para,line:213:    fetch script data disp_init.fb2_scaler_mode_enable fail
+<4>[    6.331275] [DISP] parser_disp_init_para,line:218:    fetch script data disp_init.fb2_width fail
+<4>[    6.331289] [DISP] parser_disp_init_para,line:223:    fetch script data disp_init.fb2_height fail
+<6>[    6.331464] sunxi_map_kernel ok, phys_addr=0x43100000, size=0x4b0000, virt_addr=0xf06bb000
+<6>[    6.337500] [DISP]disp_probe finish
+<6>[    6.337638] [DISP]capture_module_init
+<6>[    6.338097] [DISP]capture_probe
+<6>[    6.338163] [DISP]capture finish
+<6>[    6.338172] [DISP]disp_module_init finish
+<6>[    6.343277] init: command 'insmod' r=0
+<6>[    6.398879] [LCD]lcd_module_init
+<4>[    6.399994] axp pconf set pin [GPIO2] data to [1]
+<6>[    6.400277] [LCD]open, step 0 finish
+<6>[    6.450027] [LCD]open, step 1 finish
+<6>[    6.510088] [LCD]open, step 2 finish
+<6>[    6.620168] [LCD]open, step 3 finish
+<6>[    6.630216] [LCD]lcd_module_init finish
+<6>[    6.631424] init: command 'insmod' r=0
+<4>[    6.812340] mali:fb_start = 0x43100000,sz = 4b0000
+<3>[    6.812360] mem 872588 kB,mali shared mem is 1G
+<4>[    6.817668] axp22_dcdc2: Failed to create debugfs directory
+<6>[    6.817691] mali_platform_init(178): get gpu handle success!
+<6>[    6.817704] mali_platform_init(191): get pll8 handle success!
+<6>[    6.817718] mali_platform_init(196): get clock->pll8 success! pll=408
+<4>[    6.817747] mali_platform_init(211): set pll8 clock rate success!
+<4>[    6.817761] mali_platform_init(215): get gpu pll rate 408000000!
+<3>[    6.817842] mali_platform_init(228): get gpu pll volt is 1100000 mV!
+<6>[    6.824938] mali_platform_init(235): get mali_para->mali_used success! mali_use 1
+<6>[    6.824951] mali_platform_init(239): get mali_para->mali_clkdiv success! clk_drv 1
+<6>[    6.824962] mali_platform_init(246): get mali_para->mali_clkdiv success! mali_clk_div 1
+<6>[    6.824973] mali_platform_init(262): mali_clk_div 1
+<4>[    6.824983] mali_platform_init(267): set mali clock rate success!
+<4>[    6.824991] enable mali clock
+<4>[    6.830023] Mali: sun8i_mali_platform_device_register() sucess!!
+<6>[    6.830038] mali_freq_init(493): get mali_para->mali_used success! mali_use 1
+<3>[    6.830052] MALI INIT SUCCESS!
+<4>[    6.833433] Mali: Mali  222 JetCui
+<4>[    6.834965] Mali: Mali device driver loaded
+<6>[    6.838457] init: command 'insmod' r=0
+<3>[    6.841742] no blue_led, ignore it!
+<7>[    6.846101] Registered led device: red_led
+<7>[    6.846304] Registered led device: green_led
+<6>[    6.846390] init: command 'insmod' r=0
+<6>[    6.846437] init: processing action 0x58458 (console_init)
+<3>[    6.847200] init: width = 1024
+<3>[    6.850629] init: height = 600
+<3>[    6.854019] init: s.st_size = 25348
+<3>[    6.857890] init: logo match failed!fbsize = 2457600
+<6>[    6.887014] init: command 'console_init' r=0
+<6>[    6.887054] init: processing action 0x554c0 (fs)
+<3>[    6.887538] init: start format /dev/block/by-name/UDISK
+<3>[    6.893559] init: wait for format /dev/block/by-name/UDISK
+<3>[    6.893772] init: fork to format /dev/block/by-name/UDISK[ND]flush cache 289 1!
+<3>[    8.069377] init: format /dev/block/by-name/UDISK ok
+<6>[    8.074934] init: command 'format_userdata' r=1
+<6>[    8.075877] init: command 'mkdir' r=-2
+<6>[    8.085822] init: command 'insmod' r=0
+<6>[    8.094336] init: command 'insmod' r=0
+<6>[    8.111450] init: command 'insmod' r=0
+<6>[    8.123607] init: command 'insmod' r=0
+<6>[    8.129791] init: command 'insmod' r=0
+<6>[    8.141575] init: command 'insmod' r=0
+<6>[    8.168870] init: command 'insmod' r=0
+<5>[    8.219251] [VFE]Welcome to Video Front End driver
+<5>[    8.219749] [VFE]pdev->id = 0
+<5>[    8.219760] [VFE]dev->mipi_sel = 0
+<5>[    8.219767] [VFE]dev->vip_sel = 0
+<5>[    8.219774] [VFE]dev->isp_sel = 0
+<4>[    8.225874] [VFE_WARN]vfe vpu clock is null
+<5>[    8.226499] [VFE]vfe_init end
+<6>[    8.227559] init: command 'insmod' r=0
+<5>[    8.230090] [VFE]probe_work_handle start!
+<5>[    8.230113] [VFE]v4l2 subdev register input_num = 0
+<4>[    8.230200] axp22_dldo3: Failed to create debugfs directory
+<4>[    8.230218] axp22_dldo3: Failed to create debugfs directory
+<4>[    8.230236] axp22_eldo2: Failed to create debugfs directory
+<4>[    8.230251] axp22_dldo3: Failed to create debugfs directory
+<5>[    8.230261] [VFE]vfe sensor detect start! input_num = 0
+<5>[    8.230275] [VFE]Find sensor name is "gc0329", i2c address is 62, type is "YUV" !
+<5>[    8.230285] [VFE]Sub device register "gc0329" start!
+<5>[    8.230940] [VFE]registered sensor subdev is OK!
+<5>[    8.230955] [VFE]Check sensor!
+<7>[    8.239026] [sw_device]:sw_device_init begin!
+<4>[    8.239251] keyname:ctp_para  subname:ctp_power_io ,get error!
+<7>[    8.239267] [sw_device]:get_power_para: power_ldo = axp22_ldoio0,power_ldo_vol = 3000,power_io = 0,reset_pin = 225
+<4>[    8.239312] axp22_ldoio0: Failed to create debugfs directory
+<7>[    8.239319] [sw_device]:sw_device_init begin!
+<6>[    8.239591] init: command 'insmod' r=0
+<6>[    8.246400] input: sunxi-keyboard as /devices/virtual/input/input3
+<6>[    8.246893] init: command 'insmod' r=0
+<4>[    8.255924] [VFE_WARN]os_gpio_write, hdl is NULL
+<7>[    8.260097] [sw_device]:sw_devices_events begin!
+<7>[    8.260118] [sw_device]:sw_register_device_detect begin!
+<7>[    8.260168] ========sw_sysconfig_get_para===================
+<7>[    8.260189] sw_sysconfig_get_para: device_twi_id is 1. 
+<4>[    8.262269] sw_get_write_info:read erro or read null !
+<7>[    8.262446] write info:;Behind the equals sign said detected equipment corresponding to the name of the driver
+<7>[    8.262455] 
+<7>[    8.262539] write info:;Note: don't change the file format!
+<7>[    8.262544] 
+<7>[    8.262569] write info:gsensor_module_name=""
+<7>[    8.262573] 
+<7>[    8.262596] write info:ctp_module_name=""
+<7>[    8.262600] 
+<7>[    8.262620] write info:light sensor_module_name=""
+<7>[    8.262625] 
+<7>[    8.262647] write info:gyr sensor_module_name=""
+<7>[    8.262651] 
+<4>[    8.262675] get write info erro!
+<7>[    8.262686] config_info[5].str_info:gyr sensor_module_name=""
+<7>[    8.262691] 
+<7>[    8.262699] config_info[4].str_info:light sensor_module_name=""
+<7>[    8.262704] 
+<7>[    8.262711] config_info[3].str_info:ctp_module_name=""
+<7>[    8.262715] 
+<7>[    8.262722] config_info[2].str_info:gsensor_module_name=""
+<7>[    8.262727] 
+<7>[    8.262734] info:gsensor_module_name=""
+<7>[    8.262738] , key_name:gsensor_module_name
+<7>[    8.262748] ----ret : 21,s1 : 21---
+<7>[    8.262752]  
+<7>[    8.262758] name:
+<7>[    8.262765] device_name:,write_id:2
+<7>[    8.262772] -----the name is null !-----
+<7>[    8.262780] number:15 now_number:0,scan_number:0
+<7>[    8.262789] scan_number:0, now_number:0
+<7>[    8.262801] sw_device_response_test: name = bma250, addr = 0x18
+<4>[    8.263043] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x18)
+<6>[    8.263568] init: command 'insmod' r=0
+<5>[    8.268042] [VFE]mclk on
+<6>[    8.278676] usbcore: registered new interface driver asix
+<6>[    8.279015] init: command 'insmod' r=0
+<4>[    8.280324] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x18)
+<6>[    8.292413] usbcore: registered new interface driver qf9700
+<6>[    8.292716] init: command 'insmod' r=0
+<4>[    8.300269] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x18)
+<6>[    8.305238] usbcore: registered new interface driver MOSCHIP usb-ethernet driver
+<6>[    8.305635] init: command 'insmod' r=0
+<6>[    8.318231] usbcore: registered new interface driver rtl8150
+<6>[    8.318790] init: command 'insmod' r=0
+<4>[    8.320294] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x18)
+<6>[    8.334126] usbcore: registered new interface driver cdc_ether
+<6>[    8.334656] init: command 'insmod' r=0
+<6>[    8.334983] init: command 'chown' r=0
+<6>[    8.335174] init: command 'chmod' r=0
+<6>[    8.335225] init: command 'chown' r=0
+<6>[    8.335269] init: command 'chmod' r=0
+<6>[    8.335439] init: command 'chown' r=0
+<6>[    8.335484] init: command 'chmod' r=0
+<6>[    8.335529] init: processing action 0x47ab8 (post-fs)
+<6>[    8.338574] init: command 'mkdir' r=0
+<6>[    8.338652] init: command 'insmod' r=-1
+<6>[    8.338723] init: command 'mount' r=0
+<6>[    8.338805] init: command 'mount' r=0
+<6>[    8.338843] init: command 'mount' r=0
+<6>[    8.338926] init: command 'chown' r=0
+<6>[    8.338973] init: command 'chmod' r=0
+<6>[    8.339229] init: command 'restorecon' r=0
+<4>[    8.340250] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x18)
+<6>[    8.340678] init: command 'chown' r=-2
+<6>[    8.340721] init: command 'chmod' r=-2
+<6>[    8.340822] init: command 'restorecon' r=-2
+<6>[    8.340954] init: command 'chown' r=0
+<6>[    8.341032] init: command 'chmod' r=0
+<6>[    8.341107] init: command 'chown' r=0
+<6>[    8.341179] init: command 'chmod' r=0
+<6>[    8.341293] init: command 'chown' r=0
+<6>[    8.341365] init: command 'chmod' r=0
+<6>[    8.341433] init: command 'chown' r=0
+<6>[    8.341500] init: command 'chmod' r=0
+<6>[    8.341562] init: command 'chown' r=-2
+<6>[    8.341606] init: command 'chmod' r=-2
+<6>[    8.341979] init: command 'mkdir' r=0
+<6>[    8.342014] init: processing action 0x4dc28 (post-fs-data)
+<6>[    8.342070] init: command 'chown' r=0
+<6>[    8.342113] init: command 'chmod' r=0
+<6>[    8.342260] init: command 'restorecon' r=0
+<6>[    8.342301] init: command 'copy' r=-1
+<6>[    8.344215] init: command 'mkdir' r=0
+<6>[    8.344273] init: command 'copy' r=-1
+<6>[    8.344326] init: command 'chown' r=-2
+<6>[    8.344360] init: command 'chmod' r=-2
+<6>[    8.344389] init: command 'copy' r=-1
+<6>[    8.344433] init: command 'chown' r=-2
+<6>[    8.344464] init: command 'chmod' r=-2
+<6>[    8.344496] init: command 'write' r=-2
+<6>[    8.346262] init: command 'mkdir' r=0
+<6>[    8.346732] init: command 'mkdir' r=0
+<6>[    8.347188] init: command 'mkdir' r=0
+<6>[    8.347564] init: command 'mkdir' r=0
+<6>[    8.347956] init: command 'mkdir' r=0
+<6>[    8.348314] init: command 'mkdir' r=0
+<6>[    8.348669] init: command 'mkdir' r=0
+<6>[    8.349013] init: command 'mkdir' r=0
+<6>[    8.349386] init: command 'mkdir' r=0
+<6>[    8.349765] init: command 'mkdir' r=0
+<6>[    8.350224] init: command 'mkdir' r=0
+<6>[    8.350646] init: command 'mkdir' r=0
+<6>[    8.350700] init: command 'chmod' r=-2
+<6>[    8.350739] init: command 'chown' r=-2
+<6>[    8.351127] init: command 'mkdir' r=0
+<6>[    8.351504] init: command 'mkdir' r=0
+<6>[    8.351555] init: command 'chown' r=0
+<6>[    8.353348] init: command 'mkdir' r=0
+<6>[    8.355131] init: command 'mkdir' r=0
+<6>[    8.355557] init: command 'mkdir' r=0
+<6>[    8.355985] init: command 'mkdir' r=0
+<6>[    8.357757] init: command 'mkdir' r=0
+<6>[    8.359583] init: command 'mkdir' r=0
+<6>[    8.360084] init: command 'mkdir' r=0
+<7>[    8.360093] sw->check_addr[0]:0x18
+<7>[    8.360102] sw_device_response_test: name = bma250, addr = 0x19
+<4>[    8.360291] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x19)
+<6>[    8.360545] init: command 'mkdir' r=0
+<6>[    8.360955] init: command 'mkdir' r=0
+<6>[    8.361325] init: command 'mkdir' r=0
+<6>[    8.361690] init: command 'mkdir' r=0
+<6>[    8.362030] init: command 'mkdir' r=0
+<6>[    8.362447] init: command 'mkdir' r=0
+<6>[    8.362830] init: command 'mkdir' r=0
+<6>[    8.362882] init: command 'chown' r=0
+<6>[    8.362928] init: command 'chmod' r=0
+<6>[    8.363207] init: command 'mkdir' r=0
+<6>[    8.363615] init: command 'mkdir' r=0
+<6>[    8.363987] init: command 'mkdir' r=0
+<6>[    8.364122] init: command 'symlink' r=0
+<6>[    8.364539] init: command 'mkdir' r=0
+<6>[    8.364602] init: command 'setprop' r=0
+<6>[    8.364638] init: processing action 0x52d88 (post-fs-data)
+<6>[    8.364815] init: command 'chown' r=0
+<6>[    8.364932] init: command 'chmod' r=0
+<6>[    8.365017] init: command 'chown' r=0
+<6>[    8.365093] init: command 'chmod' r=0
+<6>[    8.365115] init: processing action 0x55490 (post-fs-data)
+<6>[    8.365131] init: processing action 0x584a0 (mix_hwrng_into_linux_rng)
+<3>[    8.365169] init: /dev/hw_random not found
+<6>[    8.369740] init: command 'mix_hwrng_into_linux_rng' r=0
+<6>[    8.369759] init: processing action 0x584e8 (property_service_init)
+<6>[    8.373736] init: MemTotal: 872588KB
+<6>[    8.374879] init: Created socket '/dev/socket/property_service' with mode '666', user '0', group '0'
+<6>[    8.375142] init: command 'property_service_init' r=0
+<6>[    8.375180] init: processing action 0x58530 (signal_init)
+<6>[    8.375285] init: command 'signal_init' r=0
+<6>[    8.375322] init: processing action 0x58578 (check_startup)
+<6>[    8.375410] init: command 'check_startup' r=0
+<6>[    8.375437] init: processing action 0x4e550 (boot)
+<6>[    8.376667] init: command 'ifup' r=0
+<6>[    8.376829] init: command 'hostname' r=0
+<6>[    8.376907] init: command 'domainname' r=0
+<6>[    8.376961] init: command 'chmod' r=-2
+<6>[    8.377010] init: command 'chown' r=-2
+<6>[    8.377039] init: command 'setrlimit' r=0
+<6>[    8.377124] init: command 'write' r=0
+<6>[    8.377204] init: command 'write' r=0
+<6>[    8.377278] init: command 'chown' r=0
+<6>[    8.377331] init: command 'chmod' r=0
+<6>[    8.377384] init: command 'chown' r=0
+<6>[    8.377431] init: command 'chmod' r=0
+<6>[    8.377509] init: command 'write' r=0
+<6>[    8.377582] init: command 'write' r=0
+<6>[    8.377632] init: command 'chown' r=-2
+<6>[    8.377675] init: command 'chown' r=-2
+<6>[    8.377720] init: command 'chown' r=-2
+<6>[    8.377763] init: command 'chown' r=-2
+<6>[    8.377809] init: command 'chown' r=-2
+<6>[    8.377864] init: command 'chown' r=-2
+<6>[    8.377912] init: command 'chown' r=0
+<6>[    8.377959] init: command 'chown' r=0
+<6>[    8.378004] init: command 'chown' r=0
+<6>[    8.378052] init: command 'chown' r=0
+<6>[    8.378097] init: command 'chmod' r=0
+<6>[    8.378140] init: command 'chmod' r=0
+<6>[    8.378183] init: command 'chmod' r=0
+<6>[    8.378252] init: command 'chown' r=-2
+<6>[    8.378311] init: command 'chmod' r=-2
+<6>[    8.378371] init: command 'chown' r=-2
+<6>[    8.378429] init: command 'chmod' r=-2
+<6>[    8.378489] init: command 'chown' r=-2
+<6>[    8.378551] init: command 'chmod' r=-2
+<6>[    8.378610] init: command 'chown' r=-2
+<6>[    8.378670] init: command 'chmod' r=-2
+<6>[    8.378730] init: command 'chown' r=-2
+<6>[    8.378787] init: command 'chmod' r=-2
+<6>[    8.378847] init: command 'chown' r=-2
+<6>[    8.378906] init: command 'chmod' r=-2
+<6>[    8.378967] init: command 'chown' r=-2
+<6>[    8.379027] init: command 'chmod' r=-2
+<6>[    8.379086] init: command 'chown' r=-2
+<6>[    8.379146] init: command 'chmod' r=-2
+<6>[    8.379205] init: command 'chown' r=-2
+<6>[    8.379267] init: command 'chown' r=-2
+<6>[    8.379323] init: command 'chmod' r=-2
+<6>[    8.379383] init: command 'chown' r=-2
+<6>[    8.379441] init: command 'chmod' r=-2
+<6>[    8.379501] init: command 'chown' r=-2
+<6>[    8.379562] init: command 'chmod' r=-2
+<6>[    8.379622] init: command 'chown' r=0
+<6>[    8.379674] init: command 'chmod' r=0
+<6>[    8.379728] init: command 'chown' r=0
+<6>[    8.379780] init: command 'chmod' r=0
+<6>[    8.379834] init: command 'chown' r=0
+<6>[    8.379887] init: command 'chmod' r=0
+<6>[    8.379939] init: command 'chown' r=0
+<6>[    8.379987] init: command 'chmod' r=0
+<6>[    8.380103] init: command 'chown' r=0
+<6>[    8.380160] init: command 'chmod' r=0
+<6>[    8.380218] init: command 'chown' r=0
+<6>[    8.380272] init: command 'chmod' r=0
+<4>[    8.380293] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x19)
+<6>[    8.380327] init: command 'chown' r=-2
+<6>[    8.380376] init: command 'chown' r=-2
+<6>[    8.380432] init: command 'chown' r=0
+<6>[    8.380489] init: command 'chown' r=-2
+<6>[    8.380539] init: command 'chmod' r=-2
+<6>[    8.380590] init: command 'chown' r=-2
+<6>[    8.380641] init: command 'chmod' r=-2
+<6>[    8.380750] init: command 'chown' r=0
+<6>[    8.380832] init: command 'chmod' r=0
+<6>[    8.380889] init: command 'chown' r=-2
+<6>[    8.380944] init: command 'chown' r=-2
+<6>[    8.380996] init: command 'chown' r=-2
+<6>[    8.381047] init: command 'chown' r=-2
+<6>[    8.381100] init: command 'chown' r=-2
+<6>[    8.381152] init: command 'chown' r=-2
+<6>[    8.381202] init: command 'chown' r=-2
+<6>[    8.381253] init: command 'chown' r=-2
+<6>[    8.381304] init: command 'chown' r=-2
+<6>[    8.381355] init: command 'chown' r=-2
+<6>[    8.381404] init: command 'chown' r=-2
+<6>[    8.381456] init: command 'chown' r=-2
+<6>[    8.381506] init: command 'chown' r=-2
+<6>[    8.381555] init: command 'chown' r=-2
+<6>[    8.381604] init: command 'chown' r=-2
+<6>[    8.381654] init: command 'chown' r=-2
+<6>[    8.381706] init: command 'chown' r=-2
+<6>[    8.381756] init: command 'chown' r=-2
+<6>[    8.381805] init: command 'chown' r=-2
+<6>[    8.381859] init: command 'chown' r=0
+<6>[    8.381912] init: command 'chown' r=0
+<6>[    8.381962] init: command 'chown' r=0
+<6>[    8.382010] init: command 'chown' r=0
+<6>[    8.382071] init: command 'chown' r=0
+<6>[    8.382122] init: command 'chown' r=0
+<6>[    8.382224] init: command 'chown' r=0
+<6>[    8.382323] init: command 'chown' r=0
+<6>[    8.382406] init: command 'setprop' r=0
+<6>[    8.382463] init: command 'setprop' r=0
+<6>[    8.382517] init: command 'setprop' r=0
+<6>[    8.382583] init: command 'setprop' r=0
+<6>[    8.382638] init: command 'setprop' r=0
+<6>[    8.382693] init: command 'setprop' r=0
+<6>[    8.382748] init: command 'setprop' r=0
+<6>[    8.382803] init: command 'setprop' r=0
+<6>[    8.382859] init: command 'setprop' r=0
+<6>[    8.382913] init: command 'setprop' r=0
+<6>[    8.382969] init: command 'setprop' r=0
+<6>[    8.383001] init: command 'setprop' r=0
+<5>[    8.383154] init: starting 'healthd'
+<6>[    8.384028] init: computing context for service '/system/bin/sh'
+<5>[    8.386539] init: starting 'console'
+<6>[    8.387357] init: computing context for service '/system/bin/lights_leds.sh'
+<6>[    8.387575] binder: 108:108 transaction failed 29189, size 0-0
+<5>[    8.387583] init: starting 'lights_leds'
+<6>[    8.388408] init: computing context for service '/system/bin/servicemanager'
+<5>[    8.388686] init: starting 'servicemanager'
+<6>[    8.389489] init: computing context for service '/system/bin/vold'
+<5>[    8.389696] init: starting 'vold'
+<6>[    8.390270] init: command 'class_start' r=0
+<6>[    8.390683] init: computing context for service '/system/bin/netd'
+<5>[    8.390950] init: starting 'netd'
+<6>[    8.391224] init: Created socket '/dev/socket/vold' with mode '660', user '0', group '1009'
+<6>[    8.391939] init: computing context for service '/system/bin/debuggerd'
+<5>[    8.392242] init: starting 'debuggerd'
+<6>[    8.393298] init: computing context for service '/system/bin/surfaceflinger'
+<5>[    8.393586] init: starting 'surfaceflinger'
+<6>[    8.394563] init: computing context for service '/system/bin/app_process'
+<5>[    8.394817] init: starting 'zygote'
+<6>[    8.395806] init: computing context for service '/system/bin/drmserver'
+<5>[    8.396092] init: starting 'drm'
+<6>[    8.396604] init: Created socket '/dev/socket/zygote' with mode '660', user '0', group '1000'
+<6>[    8.397056] init: computing context for service '/system/bin/mediaserver'
+<6>[    8.397387] init: Created socket '/dev/socket/mdns' with mode '660', user '0', group '1000'
+<5>[    8.397423] init: starting 'media'
+<6>[    8.398047] init: Created socket '/dev/socket/dnsproxyd' with mode '660', user '0', group '3003'
+<6>[    8.398410] init: computing context for service '/system/bin/installd'
+<6>[    8.398521] init: Created socket '/dev/socket/netd' with mode '660', user '0', group '1000'
+<5>[    8.398681] init: starting 'installd'
+<3>[    8.399418] init: cannot find '/system/etc/install-recovery.sh', disabling 'flash_recovery'
+<5>[    8.400091] [VFE]mclk off
+<5>[    8.400123] [VFE]Sub device register "gc0329" is OK!
+<4>[    8.401028] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x19)
+<5>[    8.401092] [VFE]V4L2 device registered as video0
+<5>[    8.401124] [VFE]register_early_suspend @ probe handle!
+<5>[    8.401132] [VFE]probe_work_handle end!
+<6>[    8.402037] init: Created socket '/dev/socket/installd' with mode '600', user '1000', group '1000'
+<6>[    8.409194] init: computing context for service '/system/bin/keystore'
+<5>[    8.409468] init: starting 'keystore'
+<6>[    8.410331] init: computing context for service '/sbin/debuglog.sh'
+<5>[    8.410541] init: starting 'debuglog'
+<6>[    8.411081] init: command 'class_start' r=0
+<6>[    8.411249] init: processing action 0x57fb8 (boot)
+<6>[    8.411395] init: command 'chmod' r=0
+<6>[    8.411495] init: command 'chown' r=0
+<6>[    8.411558] init: command 'chown' r=0
+<6>[    8.411615] init: command 'chown' r=0
+<6>[    8.411679] init: command 'chown' r=0
+<6>[    8.411737] init: command 'chown' r=0
+<6>[    8.411802] init: command 'chown' r=0
+<6>[    8.411879] init: command 'chown' r=0
+<6>[    8.411941] init: command 'chown' r=0
+<6>[    8.412010] init: command 'chown' r=0
+<6>[    8.412065] init: command 'chown' r=0
+<6>[    8.412117] init: command 'chmod' r=0
+<6>[    8.412170] init: command 'chmod' r=0
+<6>[    8.412221] init: command 'chmod' r=0
+<6>[    8.412282] init: command 'chmod' r=0
+<6>[    8.412337] init: command 'chmod' r=0
+<6>[    8.412395] init: command 'chmod' r=0
+<6>[    8.412455] init: command 'chmod' r=0
+<6>[    8.412518] init: command 'chmod' r=0
+<6>[    8.412571] init: command 'chmod' r=0
+<6>[    8.412633] init: command 'chmod' r=0
+<4>[    8.420294] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x19)
+<4>[    8.440321] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x19)
+<6>[    8.450255] init: command 'chown' r=0
+<6>[    8.450577] init: waitpid returned pid 121, status = 00000000
+<5>[    8.450601] init: process 'debuglog', pid 121 exited
+<7>[    8.460126] sw->check_addr[1]:0x19
+<7>[    8.460143] sw_device_response_test: name = bma250, addr = 0x8
+<4>[    8.460346] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x8)
+<4>[    8.480269] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x8)
+<6>[    8.500223] init: command 'chmod' r=0
+<4>[    8.500293] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x8)
+<6>[    8.500319] init: processing action 0x585c0 (queue_property_triggers)
+<6>[    8.500428] init: command 'queue_property_triggers' r=0
+<6>[    8.500448] init: processing action 0x4f6d8 (nonencrypted)
+<6>[    8.500470] init: command 'class_start' r=0
+<6>[    8.500485] init: processing action 0x4f9d8 (property:sys.powerctl=*)
+<3>[    8.500505] init: property 'sys.powerctl' doesn't exist while expanding '${sys.powerctl}'
+<3>[    8.509616] init: powerctl: cannot expand '${sys.powerctl}'
+<6>[    8.515890] init: command 'powerctl' r=-22
+<6>[    8.515926] init: processing action 0x4fa28 (property:sys.sysctl.extra_free_kbytes=*)
+<3>[    8.515949] init: property 'sys.sysctl.extra_free_kbytes' doesn't exist while expanding '${sys.sysctl.extra_free_kbytes}'
+<3>[    8.528193] init: cannot expand '${sys.sysctl.extra_free_kbytes}' while writing to '/proc/sys/vm/extra_free_kbytes'
+<4>[    8.530251] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x8)
+<6>[    8.539885] init: command 'write' r=-22
+<6>[    8.539929] init: processing action 0x4fdf0 (property:ro.debuggable=1)
+<6>[    8.539952] init: command 'start' r=0
+<6>[    8.539970] init: processing action 0x53780 (property:persist.sys.usb.config=*)
+<6>[    8.540140] init: command 'setprop' r=0
+<6>[    8.540167] init: processing action 0x56ed8 (property:sys.usb.config=mass_storage,adb)
+<4>[    8.540288] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x8)
+<3>[    8.540309] android_usb: already disabled
+<6>[    8.544823] init: command 'write' r=0
+<6>[    8.544987] init: command 'write' r=0
+<6>[    8.545084] init: command 'write' r=0
+<6>[    8.545207] init: command 'write' r=0
+<6>[    8.545301] init: command 'write' r=0
+<5>[    8.545527] init: starting 'adbd'
+<6>[    8.546154] init: command 'start' r=0
+<6>[    8.546251] init: command 'setprop' r=0
+<6>[    8.547618] init: Created socket '/dev/socket/adbd' with mode '660', user '1000', group '1000'
+<6>[    8.551054] adb_open
+<4>[    8.551110] ep_matches, wrn: endpoint already claimed, ep(0xc0982d54, 0xef11ea80, ep1in-bulk)
+<6>[    8.551130] adb_bind_config
+<4>[    8.551145] ep_matches, wrn: endpoint already claimed, ep(0xc0982d54, 0xef11ea80, ep1in-bulk)
+<4>[    8.551163] ep_matches, wrn: endpoint already claimed, ep(0xc0982da0, 0xef11ea80, ep1out-bulk)
+<4>[    8.551177] ep_matches, wrn: endpoint already claimed, ep(0xc0982d54, 0xef11ea80, ep1in-bulk)
+<4>[    8.551193] ep_matches, wrn: endpoint already claimed, ep(0xc0982da0, 0xef11ea80, ep1out-bulk)
+<4>[    8.551208] ep_matches, wrn: endpoint already claimed, ep(0xc0982dec, 0xee92d500, ep2in-bulk)
+<4>[    8.551224] [sw_udc]: alloc request: ep(0xc0982e38, ep2out-bulk, 512), req(0xea948f40)
+<4>[    8.551241] [sw_udc]: alloc request: ep(0xc0982dec, ep2in-bulk, 512), req(0xee9ee0c0)
+<4>[    8.551262] [sw_udc]: alloc request: ep(0xc0982dec, ep2in-bulk, 512), req(0xee9ee140)
+<4>[    8.551277] [sw_udc]: alloc request: ep(0xc0982dec, ep2in-bulk, 512), req(0xee9ee1c0)
+<4>[    8.551292] [sw_udc]: alloc request: ep(0xc0982dec, ep2in-bulk, 512), req(0xee9ee5c0)
+<4>[    8.551310] [sw_udc]: sunxi_udc_pullup, is_on = 1
+<4>[    8.551323] sunxi_udc_set_pullup_2317: usb device is not active
+<7>[    8.560075] sw->check_addr[2]:0x8
+<7>[    8.560093] sw_device_response_test: name = bma250, addr = 0x38
+<4>[    8.560290] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x38)
+<4>[    8.580265] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x38)
+<4>[    8.600372] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x38)
+<4>[    8.620337] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x38)
+<4>[    8.640307] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x38)
+<7>[    8.660098] sw->check_addr[3]:0x38
+<7>[    8.660116] scan_number:1, now_number:1
+<7>[    8.660131] scan_number:2, now_number:2
+<7>[    8.660146] sw_device_response_test: name = mma8452, addr = 0x1c
+<4>[    8.660363] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x1c)
+<6>[    8.672198] init: waitpid returned pid 110, status = 00000000
+<5>[    8.672267] init: process 'lights_leds', pid 110 exited
+<4>[    8.680325] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x1c)
+<4>[    8.700355] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x1c)
+<4>[    8.720281] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x1c)
+<4>[    8.740298] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x1c)
+<7>[    8.760100] sw->check_addr[4]:0x1c
+<7>[    8.760119] sw_device_response_test: name = mma8452, addr = 0x1d
+<7>[    8.760379] I2C connection sucess!
+<7>[    8.760776] -----sw_chip_id_gain:chip_id_reg:0xd, chip_id_value = 0x5a-----
+<7>[    8.760790] Chip id value does not match!--value:90--
+<7>[    8.760800] scan_number:3, now_number:3
+<7>[    8.760812] sw_device_response_test: name = mma7660, addr = 0x4c
+<4>[    8.761004] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x4c)
+<4>[    8.780279] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x4c)
+<4>[    8.800269] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x4c)
+<4>[    8.820298] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x4c)
+<4>[    8.840296] sunxi_i2c_do_xfer()950 - [i2c1] incomplete xfer (status: 0x20, dev addr: 0x4c)
+<7>[    8.860828] sw->check_addr[5]:0x4c
+<7>[    8.860847] scan_number:4, now_number:4
+<7>[    8.860862] sw_device_response_test: name = mma865x, addr = 0x1d
+<7>[    8.861151] I2C connection sucess!
+<7>[    8.861536] -----sw_chip_id_gain:chip_id_reg:0xd, chip_id_value = 0x5a-----
+<7>[    8.861549] Chip id value equal!
+<7>[    8.861558] from copy name:mma865x, strlen(name):0
+<7>[    8.861570] sw_i2c_test: write_key_name:gsensor_module_name
+<7>[    8.861580] write_flag:1
+<7>[    8.861869] write info:;Behind the equals sign said detected equipment corresponding to the name of the driver
+<7>[    8.861880] 
+<7>[    8.862004] write info:;Note: don't change the file format!
+<7>[    8.862010] 
+<7>[    8.862046] write info:gsensor_module_name="mma865x"
+<7>[    8.862051] 
+<7>[    8.862075] write info:ctp_module_name=""
+<7>[    8.862079] 
+<7>[    8.862103] write info:light sensor_module_name=""
+<7>[    8.862108] 
+<7>[    8.862145] write info:gyr sensor_module_name=""
+<7>[    8.862149] 
+<7>[    8.862187] [sw_device]:sw_register_device_detect end!
+<7>[    8.862202] [sw_device]:sw_register_device_detect begin!
+<7>[    8.862226] ========sw_sysconfig_get_para===================
+<7>[    8.862251] sw_sysconfig_get_para: device_unused. 
+<4>[    8.862263] get sysconfig para erro!
+<7>[    8.862272] [sw_device]:sw_register_device_detect end!
+<7>[    8.862281] [sw_device]:sw_register_device_detect begin!
+<7>[    8.862299] ========sw_sysconfig_get_para===================
+<7>[    8.862310] sw_sysconfig_get_para: device_unused. 
+<4>[    8.862318] get sysconfig para erro!
+<7>[    8.862326] [sw_device]:sw_register_device_detect end!
+<4>[    8.862387] ctp_wakeup: !!!!gpio data 1
+<7>[    8.970085] [sw_device]:sw_register_device_detect begin!
+<7>[    8.970132] ========sw_sysconfig_get_para===================
+<7>[    8.970148] sw_sysconfig_get_para: device_twi_id is 0. 
+<4>[    8.970167] get_device_para_value:get subname:ft5xold_ts error! val.val:0 
+<7>[    8.970174] keyname:ctp_list_para  subname:ft5xold_ts ,get error!
+<4>[    8.970181] get_detect_list: script_get_item err.support_number = 0. 
+<7>[    8.970305] ;Behind the equals sign said detected equipment corresponding to the name of the driver
+<7>[    8.970313] ;Note: don't change the file format!
+<7>[    8.970317] gsensor_module_name="mma865x"
+<7>[    8.970320] ctp_module_name=""
+<7>[    8.970324] light sensor_module_name=""
+<7>[    8.970327] gyr sensor_module_name=""
+<7>[    8.970331] :strlen(src_string):228
+<7>[    8.970346] sw_analytic_write_info:total_raw:7
+<7>[    8.970355] config_info[6].str_info:
+<7>[    8.970361] config_info[5].str_info:gyr sensor_module_name=""
+<7>[    8.970366] 
+<7>[    8.970371] config_info[4].str_info:light sensor_module_name=""
+<7>[    8.970376] 
+<7>[    8.970380] config_info[3].str_info:ctp_module_name=""
+<7>[    8.970385] 
+<7>[    8.970390] info:ctp_module_name=""
+<7>[    8.970393] , key_name:ctp_module_name
+<7>[    8.970401] ----ret : 17,s1 : 17---
+<7>[    8.970404]  
+<7>[    8.970408] name:
+<7>[    8.970413] device_name:,write_id:3
+<7>[    8.970418] -----the name is null !-----
+<7>[    8.970425] number:12 now_number:0,scan_number:0
+<7>[    8.970432] scan_number:0, now_number:0
+<7>[    8.970442] sw_device_response_test: name = ft5xold_ts, addr = 0x38
+<7>[    8.970643] I2C connection sucess!
+<7>[    8.970652] addr:0x38, response_addr:0x38
+<7>[    8.970658] return number: 1 
+<7>[    8.970664] -----sw_chip_id_detect:chip_id_reg value:0x0
+<7>[    8.970671] from copy name:ft5xold_ts, strlen(name):0
+<7>[    8.970679] sw_i2c_test: write_key_name:ctp_module_name
+<7>[    8.970686] write_flag:1
+<7>[    8.970876] write info:;Behind the equals sign said detected equipment corresponding to the name of the driver
+<7>[    8.970885] 
+<7>[    8.971002] write info:;Note: don't change the file format!
+<7>[    8.971008] 
+<7>[    8.971032] write info:gsensor_module_name="mma865x"
+<7>[    8.971036] 
+<7>[    8.971054] write info:ctp_module_name="ft5xold_ts"
+<7>[    8.971059] 
+<7>[    8.971075] write info:light sensor_module_name=""
+<7>[    8.971080] 
+<7>[    8.971096] write info:gyr sensor_module_name=""
+<7>[    8.971101] 
+<7>[    8.971116] write info:
+<7>[    8.971132] [sw_device]:sw_register_device_detect end!
+<7>[    8.971252] [sw_device]:sw_devices_events end!
+<6>[    9.009244] init: computing context for service '/system/bin/bootanimation'
+<5>[    9.009491] init: starting 'bootanim'
+<4>[    9.601335] ###########close all layers 0
+<4>[    9.625644] ###########close all layers 0
+<4>[    9.960285] 
+<4>[    9.960292] 
+<4>[    9.960295] insmod_device_driver
+<4>[    9.960298] 
+<4>[    9.960311] [sw_udc]: sunxi_usb_device_enable start
+<4>[    9.960322] [sw_udc]: usb_vbase  = 0xf1c19000
+<4>[    9.960333] [sw_udc]: sram_vbase = 0xf1c00000
+<4>[    9.960356] [sw_udc]: open_usb_clock
+<4>[    9.960417] [sw_udc]: usbd_stop_work
+<4>[    9.960461] [sw_udc]: CONFIG_USB_GADGET_DUALSPEED: USBC_TS_MODE_HS
+<4>[    9.960475] [sw_udc]: usbd_start_work
+<4>[    9.960485] [sw_udc]: usbd_start_work
+<4>[    9.960494] [sw_udc]: sunxi_usb_device_enable end
+<4>[   10.016175] [sw_udc]: IRQ: suspend
+<4>[   10.016193] [sw_udc]: ERR: usb speed is unkown
+<4>[   10.127459] [sw_udc]: IRQ: reset
+<4>[   10.127489] (1:star,2:end): vfs_read:0, vfs_write:0,dma_working:0,amount:0,file_offset:0
+<4>[   10.127504] [sw_udc]: irq: reset happen, throw away all urb
+<6>[   10.129183] healthd: battery l=95 v=0 t=0.0 h=2 st=2 c=0 chg=u
+<6>[   10.130465] healthd: battery l=95 v=0 t=0.0 h=2 st=2 c=0 chg=u
+<4>[   10.238233] [sw_udc]: 
+<4>[   10.238256] +++++++++++++++++++++++++++++++++++++
+<4>[   10.238264] [sw_udc]:  usb enter high speed.
+<4>[   10.238273] [sw_udc]: 
+<4>[   10.238279] +++++++++++++++++++++++++++++++++++++
+<4>[   10.243053] [sw_udc]: IRQ: reset
+<4>[   10.243079] (1:star,2:end): vfs_read:0, vfs_write:0,dma_working:0,amount:0,file_offset:0
+<4>[   10.243092] [sw_udc]: irq: reset happen, throw away all urb
+<6>[   10.244507] healthd: battery l=95 v=0 t=0.0 h=2 st=2 c=0 chg=u
+<6>[   10.245508] healthd: battery l=95 v=0 t=0.0 h=2 st=2 c=0 chg=u
+<4>[   10.350229] [sw_udc]: Set address 1
+<6>[   10.369376] android_usb gadget: high-speed config #1: android
+<4>[   10.369420] [sw_udc]: ep enable: ep2(0xc0982dec, ep2in-bulk, 128, 512)
+<4>[   10.369436] [sw_udc]: [sw_udc]: ep enable: ep2(0xc0982dec, ep2in-bulk, 128, 512), fifo(2560, 1024, 1)
+<4>[   10.369458] ep enable: ep1(0xc0982d54, ep1in-bulk, 128, 512)
+<4>[   10.369463] [sw_udc]: ep enable: ep2(0xc0982e38, ep2out-bulk, 0, 512)
+<4>[   10.369474] [sw_udc]: ep enable: ep2(0xc0982e38, ep2out-bulk, 0, 512), fifo(3584, 1024, 1)
+<4>[   10.369489] [sw_udc]: ep enable: ep1(0xc0982d54, ep1in-bulk, 128, 512), fifo(512, 1024, 1)
+<4>[   10.369507] [sw_udc]: ep enable: ep1(0xc0982da0, ep1out-bulk, 0, 512)
+<4>[   10.369522] [sw_udc]: ep enable: ep1(0xc0982da0, ep1out-bulk, 0, 512), fifo(1536, 1024, 1)
+<4>[   10.369542] [sw_udc]: alloc request: ep(0xc0982d54, ep1in-bulk, 512), req(0xeaa65440)
+<4>[   10.369556] [sw_udc]: alloc request: ep(0xc0982da0, ep1out-bulk, 512), req(0xeea1c640)
+<4>[   10.369571] [sw_udc]: alloc request: ep(0xc0982d54, ep1in-bulk, 512), req(0xea948440)
+<4>[   10.369586] [sw_udc]: alloc request: ep(0xc0982da0, ep1out-bulk, 512), req(0xea9483c0)
+<4>[   10.369746] nuke: ep num is 0
+<6>[   16.460310] warning: `zygote' uses 32-bit capabilities (legacy support in use)
+<6>[   16.619299] mma865x 1-001d: build time Sep 13 2014 16:08:03
+<6>[   16.620485] input: mma865x as /devices/virtual/input/input4
+<6>[   16.645588] =====ctp_fetch_sysconfig_para=====. 
+<3>[   16.645617] ctp_fetch_sysconfig_para: ctp_power_io script_get_item err. 
+<4>[   16.653090] ctp_wakeup gpio number is 225
+<4>[   16.653102] ctp_irq gpio number is 37
+<4>[   16.653149] axp22_ldoio0: Failed to create debugfs directory
+<4>[   16.710423] i2c-core: driver [ft5x_ts] using legacy suspend method
+<4>[   16.710438] i2c-core: driver [ft5x_ts] using legacy resume method
+<6>[   16.711794] input: ft5x_ts as /devices/virtual/input/input5
+<4>[   16.713109] ==register_early_suspend =
+<6>[   16.715144] init: processing action 0x50038 (property:sys.sensors=1)
+<6>[   16.715263] init: computing context for service '/system/bin/busybox'
+<5>[   16.715500] init: starting 'sensors'
+<6>[   16.715998] init: command 'start' r=0
+<6>[   16.732590] init: waitpid returned pid 473, status = 00000000
+<5>[   16.732616] init: process 'sensors', pid 473 exited
+<6>[   36.943197] init: processing action 0x50148 (property:sys.lights_leds=1)
+<6>[   36.943343] init: computing context for service '/system/bin/lights_leds.sh'
+<5>[   36.943584] init: starting 'lights_leds'
+<6>[   36.944192] init: command 'start' r=0
+<6>[   36.946937] healthd: battery l=95 v=3973 t=30.0 h=2 st=2 c=149 chg=u
+<6>[   36.952243] request_suspend_state: wakeup (3->0) at 36952221270 (2016-04-30 18:55:28.687922560 UTC)
+<6>[   37.000947] init: waitpid returned pid 511, status = 00000000
+<5>[   37.000975] init: process 'lights_leds', pid 511 exited
+<6>[   37.072332] lowmemorykiller: lowmem_shrink: convert oom_adj to oom_score_adj:
+<6>[   37.072353] lowmemorykiller: oom_adj 0 => oom_score_adj 0
+<6>[   37.072363] lowmemorykiller: oom_adj 1 => oom_score_adj 58
+<6>[   37.072372] lowmemorykiller: oom_adj 2 => oom_score_adj 117
+<6>[   37.072381] lowmemorykiller: oom_adj 3 => oom_score_adj 176
+<6>[   37.072390] lowmemorykiller: oom_adj 9 => oom_score_adj 529
+<6>[   37.072399] lowmemorykiller: oom_adj 15 => oom_score_adj 1000
+<6>[   37.073236] init: processing action 0x4fa28 (property:sys.sysctl.extra_free_kbytes=*)
+<6>[   37.073334] init: command 'write' r=-2
+<6>[   55.728090] acc_open
+<6>[   55.728124] acc_release
+<4>[   56.324905] RTL871X: module init start
+<4>[   56.324926] RTL871X: rtl8188eu v4.3.0.4_11485.20140519
+<4>[   56.324935] RTL871X: build time: Sep 13 2014 16:09:41
+<4>[   56.324950] sw_usb_enable_hcd: usbc_num = 1
+<4>[   56.324960] [rtl8188eu]: rtl8188eu module power set by axp.
+<4>[   56.325005] axp22_dldo1: Failed to create debugfs directory
+<4>[   56.325027] [rtl8188eu]: get power regulator  failed.
+<4>[   56.325035] [rtl8188eu]: regulator on.
+<4>[   56.325768] [rtl8188eu]: usb wifi power state: on
+<4>[   56.335795] [sunxi_hci_sunxi]: [sunxi-ehci1]: sunxi_usb_enable_ehci
+<4>[   56.335829] [sunxi_hci_sunxi]: [sunxi-ehci1]: probe, pdev->name: sunxi-ehci, pdev->id: 1, sunxi_ehci: 0xc0a10f14
+<4>[   56.335855] [sunxi_hci_sunxi]: [sunxi-ehci1]: open clock, is_open: 0
+<4>[   56.355908] [sunxi_hci_sunxi]: [sunxi-ehci1]: Set USB Power ON
+<6>[   56.355938] sunxi-ehci sunxi-ehci.1: SW USB2.0 'Enhanced' Host Controller (EHCI) Driver
+<6>[   56.355989] sunxi-ehci sunxi-ehci.1: new USB bus registered, assigned bus number 2
+<6>[   56.356140] sunxi-ehci sunxi-ehci.1: irq 104, io mem 0xf1c1a000
+<6>[   56.370120] sunxi-ehci sunxi-ehci.1: USB 0.0 started, EHCI 1.00
+<4>[   56.370170] ehci_irq: highspeed device connect
+<6>[   56.372966] hub 2-0:1.0: USB hub found
+<6>[   56.373001] hub 2-0:1.0: 1 port detected
+<4>[   56.373771] [sunxi_hci_sunxi]: ERR: sunxi_ohci is null
+<6>[   56.374109] usbcore: registered new interface driver rtl8188eu
+<4>[   56.374121] RTL871X: module init ret=0
+<6>[   56.690148] usb 2-1: new high-speed USB device number 2 using sunxi-ehci
+<4>[   56.842098] RTL871X: 
+<4>[   56.842103] usb_endpoint_descriptor(0):
+<4>[   56.842117] RTL871X: bLength=7
+<4>[   56.842123] RTL871X: bDescriptorType=5
+<4>[   56.842131] RTL871X: bEndpointAddress=81
+<4>[   56.842138] RTL871X: wMaxPacketSize=512
+<4>[   56.842146] RTL871X: bInterval=0
+<4>[   56.842152] RTL871X: RT_usb_endpoint_is_bulk_in = 1
+<4>[   56.842161] RTL871X: 
+<4>[   56.842164] usb_endpoint_descriptor(1):
+<4>[   56.842171] RTL871X: bLength=7
+<4>[   56.842178] RTL871X: bDescriptorType=5
+<4>[   56.842184] RTL871X: bEndpointAddress=2
+<4>[   56.842191] RTL871X: wMaxPacketSize=512
+<4>[   56.842198] RTL871X: bInterval=0
+<4>[   56.842205] RTL871X: RT_usb_endpoint_is_bulk_out = 2
+<4>[   56.842213] RTL871X: 
+<4>[   56.842216] usb_endpoint_descriptor(2):
+<4>[   56.842223] RTL871X: bLength=7
+<4>[   56.842230] RTL871X: bDescriptorType=5
+<4>[   56.842237] RTL871X: bEndpointAddress=3
+<4>[   56.842244] RTL871X: wMaxPacketSize=512
+<4>[   56.842251] RTL871X: bInterval=0
+<4>[   56.842258] RTL871X: RT_usb_endpoint_is_bulk_out = 3
+<4>[   56.842267] RTL871X: nr_endpoint=3, in_num=1, out_num=2
+<4>[   56.842271] 
+<4>[   56.842278] RTL871X: USB_SPEED_HIGH
+<4>[   56.842563] RTL871X: CHIP TYPE: RTL8188E
+<4>[   56.842621] RTL871X: register rtw_netdev_ops to netdev_ops
+<4>[   56.842641] RTL871X: rtw_wdev_alloc(padapter=f24b8000)
+<4>[   56.843651] RTL871X: Chip Version Info: CHIP_8188E_Normal_Chip_TSMC_D_CUT_1T1R_RomVer(0)
+<4>[   56.843670] RTL871X: RF_Type is 3!!
+<4>[   56.843682] RTL871X: _ConfigNormalChipOutEP_8188E OutEpQueueSel(0x05), OutEpNumber(2) 
+<4>[   56.843812] RTL871X: EEPROM type is E-FUSE
+<4>[   56.843822] RTL871X: ====> _ReadAdapterInfo8188EU
+<4>[   56.843928] RTL871X: Boot from EFUSE, Autoload OK !
+<4>[   56.847313] RTL871X: SetHwReg8188EU: bMacPwrCtrlOn=1
+<4>[   56.847550] bFWReady == _FALSE call reset 8051...
+<4>[   56.848423] RTL871X: =====> _8051Reset88E(): 8051 reset success .
+<4>[   56.863308] RTL871X: efuse_read_phymap_from_txpktbuf bcnhead:0
+<4>[   56.864428] RTL871X: efuse_read_phymap_from_txpktbuf len:111, lenbak:111, aaa:111, aaabak:111
+<4>[   56.872683] RTL871X: efuse_read_phymap_from_txpktbuf read count:109
+<4>[   56.873054] RTL871X: EEPROM ID=0x8129
+<4>[   56.873064] RTL871X: VID = 0x0BDA, PID = 0x0179
+<4>[   56.873073] RTL871X: Customer ID: 0x00, SubCustomer ID: 0xCD
+<4>[   56.873086] RTL871X: Hal_ReadPowerSavingMode88E...bHWPwrPindetect(0)-bHWPowerdown(0) ,bSupportRemoteWakeup(1)
+<4>[   56.873098] RTL871X: ### PS params=>  power_mgnt(1),usbss_enable(0) ###
+<4>[   56.873111] RTL871X: ======= Path 0, Channel 1 =======
+<4>[   56.873120] RTL871X: Index24G_CCK_Base[0][1] = 0x2e
+<4>[   56.873129] RTL871X: Index24G_BW40_Base[0][1] = 0x30
+<4>[   56.873137] RTL871X: ======= Path 0, Channel 2 =======
+<4>[   56.873146] RTL871X: Index24G_CCK_Base[0][2] = 0x2e
+<4>[   56.873155] RTL871X: Index24G_BW40_Base[0][2] = 0x30
+<4>[   56.873163] RTL871X: ======= Path 0, Channel 3 =======
+<4>[   56.873172] RTL871X: Index24G_CCK_Base[0][3] = 0x2e
+<4>[   56.873180] RTL871X: Index24G_BW40_Base[0][3] = 0x30
+<4>[   56.873189] RTL871X: ======= Path 0, Channel 4 =======
+<4>[   56.873197] RTL871X: Index24G_CCK_Base[0][4] = 0x2e
+<4>[   56.873206] RTL871X: Index24G_BW40_Base[0][4] = 0x30
+<4>[   56.873214] RTL871X: ======= Path 0, Channel 5 =======
+<4>[   56.873223] RTL871X: Index24G_CCK_Base[0][5] = 0x2e
+<4>[   56.873232] RTL871X: Index24G_BW40_Base[0][5] = 0x30
+<4>[   56.873240] RTL871X: ======= Path 0, Channel 6 =======
+<4>[   56.873249] RTL871X: Index24G_CCK_Base[0][6] = 0x2d
+<4>[   56.873257] RTL871X: Index24G_BW40_Base[0][6] = 0x2f
+<4>[   56.873265] RTL871X: ======= Path 0, Channel 7 =======
+<4>[   56.873274] RTL871X: Index24G_CCK_Base[0][7] = 0x2d
+<4>[   56.873283] RTL871X: Index24G_BW40_Base[0][7] = 0x2f
+<4>[   56.873291] RTL871X: ======= Path 0, Channel 8 =======
+<4>[   56.873300] RTL871X: Index24G_CCK_Base[0][8] = 0x2d
+<4>[   56.873308] RTL871X: Index24G_BW40_Base[0][8] = 0x2f
+<4>[   56.873317] RTL871X: ======= Path 0, Channel 9 =======
+<4>[   56.873326] RTL871X: Index24G_CCK_Base[0][9] = 0x2c
+<4>[   56.873334] RTL871X: Index24G_BW40_Base[0][9] = 0x2e
+<4>[   56.873343] RTL871X: ======= Path 0, Channel 10 =======
+<4>[   56.873351] RTL871X: Index24G_CCK_Base[0][10] = 0x2c
+<4>[   56.873360] RTL871X: Index24G_BW40_Base[0][10] = 0x2e
+<4>[   56.873368] RTL871X: ======= Path 0, Channel 11 =======
+<4>[   56.873377] RTL871X: Index24G_CCK_Base[0][11] = 0x2c
+<4>[   56.873386] RTL871X: Index24G_BW40_Base[0][11] = 0x2e
+<4>[   56.873394] RTL871X: ======= Path 0, Channel 12 =======
+<4>[   56.873403] RTL871X: Index24G_CCK_Base[0][12] = 0x2c
+<4>[   56.873412] RTL871X: Index24G_BW40_Base[0][12] = 0x2e
+<4>[   56.873420] RTL871X: ======= Path 0, Channel 13 =======
+<4>[   56.873429] RTL871X: Index24G_CCK_Base[0][13] = 0x2c
+<4>[   56.873437] RTL871X: Index24G_BW40_Base[0][13] = 0x2e
+<4>[   56.873446] RTL871X: ======= Path 0, Channel 14 =======
+<4>[   56.873454] RTL871X: Index24G_CCK_Base[0][14] = 0x2c
+<4>[   56.873463] RTL871X: Index24G_BW40_Base[0][14] = 0x2e
+<4>[   56.873472] RTL871X: ======= TxCount 0 =======
+<4>[   56.873480] RTL871X: CCK_24G_Diff[0][0]= 0
+<4>[   56.873488] RTL871X: OFDM_24G_Diff[0][0]= 0
+<4>[   56.873496] RTL871X: BW20_24G_Diff[0][0]= 0
+<4>[   56.873504] RTL871X: BW40_24G_Diff[0][0]= 0
+<4>[   56.873511] RTL871X: EEPROMRegulatory = 0x0
+<4>[   56.873521] RTL871X: mlmepriv.ChannelPlan = 0x20
+<4>[   56.873529] RTL871X: CrystalCap: 0x28
+<4>[   56.873537] RTL871X: EEPROM Customer ID: 0x 0
+<4>[   56.873546] RTL871X: EEPROM : AntDivCfg = 0, TRxAntDivType = 3
+<4>[   56.873554] RTL871X: Board Type: 0x 0
+<4>[   56.873561] RTL871X: ThermalMeter = 0x1a
+<4>[   56.873569] RTL871X: <==== _ReadAdapterInfo8188EU in 30 ms
+<4>[   56.873888] RTL871X: init_channel_set ChannelPlan ID 20 Chan num:13  
+<4>[   56.875480] RTL871X: rtw_register_early_suspend
+<4>[   56.875603] RTL871X: pwrctrlpriv.bSupportRemoteWakeup~~~~~~
+<4>[   56.875615] RTL871X: pwrctrlpriv.bSupportRemoteWakeup~~~[1]~~~
+<4>[   56.875629] RTL871X: rtw_macaddr_cfg MAC Address  = 08:d8:33:0a:4f:64
+<4>[   56.875640] RTL871X: bDriverStopped:1, bSurpriseRemoved:0, bup:0, hw_init_completed:0
+<4>[   56.875749] RTL871X: register rtw_netdev_ops to netdev_ops
+<4>[   56.875767] RTL871X: register rtw_netdev_if2_ops to netdev_ops
+<4>[   56.875805] RTL871X: rtw_wdev_alloc(padapter=f2a7c000)
+<4>[   56.876972] RTL871X: Chip Version Info: CHIP_8188E_Normal_Chip_TSMC_D_CUT_1T1R_RomVer(0)
+<4>[   56.876988] RTL871X: RF_Type is 3!!
+<4>[   56.877000] RTL871X: _ConfigNormalChipOutEP_8188E OutEpQueueSel(0x05), OutEpNumber(2) 
+<4>[   56.877315] RTL871X: init_channel_set ChannelPlan ID 20 Chan num:13  
+<4>[   56.879035] RTL871X: rtw_ndev_init(wlan0)
+<4>[   56.882727] RTL871X: _rtw_drv_register_netdev, MAC Address (if1) = 08:d8:33:0a:4f:64
+<4>[   56.882764] RTL871X: rtw_ndev_init(p2p0)
+<4>[   56.888526] RTL871X: _rtw_drv_register_netdev, MAC Address (if2) = 0a:d8:33:0a:4f:64
+<6>[   57.093784] init: computing context for service '/system/bin/wpa_supplicant'
+<5>[   57.094082] init: starting 'p2p_supplicant'
+<6>[   57.096104] init: Created socket '/dev/socket/wpa_wlan0' with mode '660', user '1010', group '1010'
+<4>[   57.153565] RTL871X: +871x_drv - if2_open, bup=0
+<4>[   57.153586] RTL871X: +871x_drv - drv_open, bup=0
+<4>[   57.153601] RTL871X: Set RF Chip ID to RF_6052 and RF type to 1T1R.
+<4>[   57.154432] RTL871X: rtl8188e_FirmwareDownload fw:NIC, size: 13904
+<4>[   57.154448] RTL871X: rtl8188e_FirmwareDownload: fw_ver=b fw_subver=0001 sig=0x88e1, Month=11, Date=27, Hour=30, Minute=36
+<4>[   57.173561] RTL871X: polling_fwdl_chksum: Checksum report OK! (1, 0ms), REG_MCUFWDL:0x00030005
+<4>[   57.175048] RTL871X: =====> _8051Reset88E(): 8051 reset success .
+<4>[   57.177678] RTL871X: _FWFreeToGo: Polling FW ready OK! (21, 0ms), REG_MCUFWDL:0x000300c6
+<4>[   57.177690] RTL871X: FWDL success. write_fw:1, 20ms
+<4>[   57.480821] ==> rtl8188e_iol_efuse_patch 
+<4>[   57.559185] RTL871X: pDM_Odm TxPowerTrackControl = 1
+<4>[   57.758124] RTL871X: rtl8188eu_hal_init in 600ms
+<4>[   57.759319] RTL871X: hw_var_set_opmode()-2931 mode = 2
+<4>[   57.773570] RTL871X: MAC Address = 08:d8:33:0a:4f:64
+<4>[   57.773882] RTL871X: rtw_cfg80211_init_wiphy:rf_type=3
+<4>[   57.773925] RTL871X: +871x_drv - if2_open, bup=0
+<4>[   57.773936] RTL871X:  rtw_hal_inirp_init HalFunc.inirp_init is NULL!!!
+<4>[   57.773947] RTL871X: rtw_cfg80211_init_wiphy:rf_type=3
+<4>[   57.773973] RTL871X: -871x_drv - if2_open, bup=1
+<4>[   57.773982] RTL871X: -871x_drv - drv_open, bup=1
+<4>[   57.773990] RTL871X: -871x_drv - if2_open, bup=1
+<4>[   57.774157] RTL871X: cfg80211_rtw_set_power_mgmt(p2p0) enabled:1, timeout:-1
+<6>[   57.774877] ADDRCONF(NETDEV_UP): p2p0: link is not ready
+<4>[   57.821365] RTL871X: cfg80211_rtw_flush_pmksa(p2p0)
+<4>[   57.899539] RTL871X: cfg80211_rtw_change_station(p2p0)
+<4>[   57.899751] RTL871X: cfg80211_rtw_change_station(p2p0)
+<4>[   57.899867] RTL871X: cfg80211_rtw_change_station(p2p0)
+<4>[   57.911824] RTL871X: +871x_drv - drv_open, bup=1
+<4>[   57.911853] RTL871X: -871x_drv - drv_open, bup=1
+<4>[   57.912014] RTL871X: cfg80211_rtw_set_power_mgmt(wlan0) enabled:1, timeout:-1
+<6>[   57.912675] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+<4>[   57.981160] RTL871X: cfg80211_rtw_flush_pmksa(wlan0)
+<4>[   58.041115] RTL871X: cfg80211_rtw_change_station(wlan0)
+<4>[   58.041459] RTL871X: cfg80211_rtw_change_station(wlan0)
+<4>[   58.041657] RTL871X: cfg80211_rtw_change_station(wlan0)
+<4>[   58.092687] RTL871X: rtw_android_priv_cmd: Android private cmd "BTCOEXSCAN-STOP" on wlan0
+<4>[   58.095160] RTL871X: rtw_android_priv_cmd: Android private cmd "RXFILTER-STOP" on wlan0
+<4>[   58.097437] RTL871X: rtw_android_priv_cmd: Android private cmd "RXFILTER-ADD 3" on wlan0
+<4>[   58.099350] RTL871X: rtw_android_priv_cmd: Android private cmd "RXFILTER-START" on wlan0
+<4>[   58.101426] RTL871X: rtw_android_priv_cmd: Android private cmd "RXFILTER-STOP" on wlan0
+<4>[   58.103960] RTL871X: rtw_android_priv_cmd: Android private cmd "RXFILTER-REMOVE 2" on wlan0
+<4>[   58.105820] RTL871X: rtw_android_priv_cmd: Android private cmd "RXFILTER-START" on wlan0
+<4>[   58.124115] RTL871X: rtw_android_priv_cmd: Android private cmd "SETBAND 0" on wlan0
+<4>[   58.124165] RTL871X: rtw_set_band(wlan0) band:0
+<4>[   58.141610] RTL871X: cfg80211_rtw_scan(wlan0)
+<4>[   58.141789] RTL871X: rtw_cfg80211_set_probe_req_wpsp2pie(wlan0) listen channel - country:XX, class:81, ch:6
+<4>[   58.144377] RTL871X: SetHwReg8188E:(HW_VAR_CHECK_TXBUF)TXBUF Empty(1) in 0 ms
+<4>[   58.177187] [ND]flush cache 1 1!
+<7>[   58.186575] SELinux: initialized (dev nandk, type vfat), uses genfs_contexts
+<4>[   58.229834] [ND]flush cache 2 1!
+<3>[   58.235337] init: no such service 'fuse_sdcard'
+<4>[   58.900473] RTL871X: cfg80211_rtw_change_station(p2p0)
+<4>[   59.042356] RTL871X: cfg80211_rtw_change_station(wlan0)
+<4>[   59.478341] RTL871X: survey done event(15) band:0 for wlan0
+<4>[   59.478445] RTL871X: rtw_indicate_scan_done(wlan0)
+<4>[   59.480284] RTL871X: ==>rtw_ps_processor .fw_state(8)
+<4>[   59.480305] RTL871X: ==>ips_enter cnts:1
+<4>[   59.480312] RTL871X: nolinked power save enter
+<4>[   59.480321] RTL871X: ===> rtw_ips_pwr_down...................
+<4>[   59.480330] RTL871X: ====> rtw_ips_dev_unload...
+<4>[   59.512489] RTL871X: usb_read_port_cancel
+<4>[   59.512690] RTL871X: usb_read_port_complete() RX Warning! bDriverStopped(0) OR bSurpriseRemoved(0) 
+<4>[   59.512791] RTL871X: usb_read_port_complete() RX Warning! bDriverStopped(0) OR bSurpriseRemoved(0) 
+<4>[   59.512925] RTL871X: usb_read_port_complete() RX Warning! bDriverStopped(0) OR bSurpriseRemoved(0) 
+<4>[   59.513191] RTL871X: usb_read_port_complete() RX Warning! bDriverStopped(0) OR bSurpriseRemoved(0) 
+<4>[   59.513452] RTL871X: usb_read_port_complete() RX Warning! bDriverStopped(0) OR bSurpriseRemoved(0) 
+<4>[   59.513683] RTL871X: usb_read_port_complete() RX Warning! bDriverStopped(0) OR bSurpriseRemoved(0) 
+<4>[   59.513798] RTL871X: usb_read_port_complete() RX Warning! bDriverStopped(0) OR bSurpriseRemoved(0) 
+<4>[   59.513930] RTL871X: usb_read_port_complete() RX Warning! bDriverStopped(0) OR bSurpriseRemoved(0) 
+<4>[   59.513984] RTL871X: usb_write_port_cancel 
+<4>[   59.514094] RTL871X: ==> rtl8188eu_hal_deinit 
+<4>[   59.514611] RTL871X: bkeepfwalive(0)
+<4>[   59.521490] RTL871X: SetHwReg8188EU: bMacPwrCtrlOn=0
+<4>[   59.521515] RTL871X: <=== rtw_ips_pwr_down..................... in 40ms
+<6>[   60.403725] init: processing action 0x51880 (property:sys.boot_completed=1)
+<6>[   60.403995] init: computing context for service '/system/bin/busybox'
+<5>[   60.404400] init: starting 'preinstall'
+<6>[   60.405043] init: command 'start' r=0
+<6>[   60.405706] init: processing action 0x55fa8 (property:sys.boot_completed=1)
+<6>[   60.406168] init: computing context for service '/system/bin/rild'
+<5>[   60.406540] init: starting 'ril-daemon'
+<6>[   60.407181] init: command 'start' r=0
+<6>[   60.407254] init: command 'start' r=0
+<6>[   60.412671] init: Created socket '/dev/socket/rild-debug' with mode '660', user '1001', group '1000'
+<6>[   60.413301] init: Created socket '/dev/socket/rild' with mode '660', user '0', group '1001'
+<4>[   61.413993] RTL871X: cfg80211_rtw_change_station(wlan0)
+<4>[   61.414190] RTL871X: cfg80211_rtw_change_station(wlan0)
+<3>[   61.958224] init: sys_prop: permission denied uid:1003  name:service.bootanim.exit
+<6>[   61.980351] init: waitpid returned pid 155, status = 00000000
+<5>[   61.980397] init: process 'bootanim', pid 155 exited
+<6>[   62.668557] init: waitpid returned pid 971, status = 0000ff00
+<5>[   62.668600] init: process 'preinstall', pid 971 exited
+<6>[   65.565987] CPU Budget:update CPU 0 cpufreq max to 1200000 min to 120000
+<4>[   65.566055] [dsm] store_scene: 0
+<6>[   68.387226] healthd: battery l=95 v=3855 t=30.0 h=2 st=2 c=543 chg=u
+<5>[   69.061310] CPU3: shutdown
+<6>[   69.061351] [hotplug]: cpu(2) try to kill cpu(3)
+<6>[   69.061414] [hotplug]: cpu3 is killed! .
+<5>[   69.561446] CPU2: shutdown
+<6>[   69.561496] [hotplug]: cpu(0) try to kill cpu(2)
+<6>[   69.561558] [hotplug]: cpu2 is killed! .
+<4>[   73.243823] RTL871X: cfg80211_rtw_scan(wlan0)
+<4>[   73.243868] RTL871X: _rtw_pwr_wakeup call ips_leave....
+<4>[   73.243886] RTL871X: ==>ips_leave cnts:1
+<4>[   73.243899] RTL871X: ===>  rtw_ips_pwr_up..............
+<4>[   73.243929] RTL871X: ===> ips_netdrv_open.........
+<4>[   73.247208] RTL871X: SetHwReg8188EU: bMacPwrCtrlOn=1
+<4>[   73.247231] RTL871X: Set RF Chip ID to RF_6052 and RF type to 1T1R.
+<4>[   73.248080] RTL871X: rtl8188e_FirmwareDownload fw:NIC, size: 13904
+<4>[   73.248110] RTL871X: rtl8188e_FirmwareDownload: fw_ver=b fw_subver=0001 sig=0x88e1, Month=11, Date=27, Hour=30, Minute=36
+<4>[   73.277088] RTL871X: polling_fwdl_chksum: Checksum report OK! (1, 0ms), REG_MCUFWDL:0x00030005
+<4>[   73.278689] RTL871X: =====> _8051Reset88E(): 8051 reset success .
+<4>[   73.281345] RTL871X: _FWFreeToGo: Polling FW ready OK! (20, 10ms), REG_MCUFWDL:0x000300c6
+<4>[   73.281371] RTL871X: FWDL success. write_fw:1, 40ms
+<4>[   73.580838] ==> rtl8188e_iol_efuse_patch 
+<4>[   73.659574] RTL871X: pDM_Odm TxPowerTrackControl = 1
+<4>[   73.877702] RTL871X: rtl8188eu_hal_init in 630ms
+<4>[   73.878190] RTL871X: hw_var_set_opmode()-2931 mode = 2
+<4>[   73.885149] RTL871X: <===  rtw_ips_pwr_up.............. in 640ms
+<4>[   73.885168] RTL871X: nolinked power save leave
+<4>[   73.885329] RTL871X: ==> ips_leave.....LED(0x00028282)...
+<4>[   73.886197] RTL871X: SetHwReg8188E:(HW_VAR_CHECK_TXBUF)TXBUF Empty(1) in 0 ms
+<4>[   75.197441] RTL871X: survey done event(13) band:0 for wlan0
+<4>[   75.197534] RTL871X: rtw_indicate_scan_done(wlan0)
+<4>[   75.200103] RTL871X: ==>rtw_ps_processor .fw_state(8)
+<4>[   75.200121] RTL871X: ==>ips_enter cnts:2
+<4>[   75.200130] RTL871X: nolinked power save enter
+<4>[   75.200140] RTL871X: ===> rtw_ips_pwr_down...................
+<4>[   75.200150] RTL871X: ====> rtw_ips_dev_unload...
+<4>[   75.224351] RTL871X: usb_read_port_cancel
+<4>[   75.224565] RTL871X: usb_read_port_complete() RX Warning! bDriverStopped(0) OR bSurpriseRemoved(0) 
+<4>[   75.225057] RTL871X: usb_read_port_complete() RX Warning! bDriverStopped(0) OR bSurpriseRemoved(0) 
+<4>[   75.225169] RTL871X: usb_read_port_complete() RX Warning! bDriverStopped(0) OR bSurpriseRemoved(0) 
+<4>[   75.225293] RTL871X: usb_read_port_complete() RX Warning! bDriverStopped(0) OR bSurpriseRemoved(0) 
+<4>[   75.225416] RTL871X: usb_read_port_complete() RX Warning! bDriverStopped(0) OR bSurpriseRemoved(0) 
+<4>[   75.225546] RTL871X: usb_read_port_complete() RX Warning! bDriverStopped(0) OR bSurpriseRemoved(0) 
+<4>[   75.225665] RTL871X: usb_read_port_complete() RX Warning! bDriverStopped(0) OR bSurpriseRemoved(0) 
+<4>[   75.225791] RTL871X: usb_read_port_complete() RX Warning! bDriverStopped(0) OR bSurpriseRemoved(0) 
+<4>[   75.225826] RTL871X: usb_write_port_cancel 
+<4>[   75.225912] RTL871X: ==> rtl8188eu_hal_deinit 
+<4>[   75.226194] RTL871X: bkeepfwalive(0)
+<4>[   75.232822] RTL871X: SetHwReg8188EU: bMacPwrCtrlOn=0
+<4>[   75.232844] RTL871X: <=== rtw_ips_pwr_down..................... in 30ms
+<5>[   76.597046] CPU1: shutdown
+<6>[   76.597159] [hotplug]: cpu(0) try to kill cpu(1)
+<6>[   76.598358] [hotplug]: cpu1 is killed! .
+<4>[   76.604153] CPU1: Booted secondary processor
+<4>[   69.570026] CPU2: Booted secondary processor
+<4>[   69.070731] CPU3: Booted secondary processor
+<5>[   86.081362] CPU3: shutdown
+<6>[   86.081395] [hotplug]: cpu(0) try to kill cpu(3)
+<6>[   86.082469] [hotplug]: cpu3 is killed! .
