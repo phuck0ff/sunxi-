@@ -2,7 +2,7 @@
 Files to drive or repair TAB744 INM7102AVD M7100AVD RTL8188ETV 8188EU GC0329 sun8iw5p1 astar m7100nobt tablets.
 
 * First try ``cat INM71* | unxz > inofficial-stock.img`` and flash firmware using LiveSuit.
-* If unsuccessful, other files might help you debug and cook a firmware that works for you.
+* If unsuccessful, other files in repo could help to debug and cook something that works4u (tm).
 
 
 ## checksums for firmware
