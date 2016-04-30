@@ -59,10 +59,7 @@ The firmware has been created by dumping NAND partitions in FEL/FES mode using F
  ro.com.google.gmsversion=4.4_r3
 ```
 
-Files unobtainable by dumping, but necessary to build a proper firmware image, have been taken from m7100avd image available on pan.baidu.com. These files are:
-* ``arisc.fex`` ``aultls32.fex`` ``aultools.fex``
-* ``cardscript.fex`` ``cardtool.fex`` ``usbtool.fex`` ``diskfs.fex`` ``split_xxxx.fex``
-* ``boot0_nand.fex`` ``boot0_sdcard.fex`` ``fes1.fex`` ``u-boot.fex``
+Files unobtainable by dumping, but necessary to build a proper firmware image, have been taken from m7100avd image available on pan.baidu.com. These files are: ``arisc.fex`` ``aultls32.fex`` ``aultools.fex`` ``cardscript.fex`` ``cardtool.fex`` ``usbtool.fex`` ``diskfs.fex`` ``split_xxxx.fex`` ``boot0_nand.fex`` ``boot0_sdcard.fex`` ``fes1.fex`` ``u-boot.fex``
 
 * u-boot.fex, version string ``U-Boot 2011.09-rc1-00098-g4239ee7 (May 30 2014 - 08:57:03)``, was originally taken from ``M7100AVD A33 m7100nobt 20140603`` firmware shared on pan.baidu.com (``M7100AVD A33 wifi+bt 20140604`` has the same u-boot version) and updated using ``mod_update/update_uboot u-boot.fex inm7102avd_dumped_script.bin``; it is identical
   * with the one inside ``INM7102AVD_M7100AVD_RTL8188ETV_8188EU_GC0329_sun8iw5p1_astar_m7100nobt_20140917.img``
