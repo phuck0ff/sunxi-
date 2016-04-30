@@ -66,9 +66,12 @@ bce0f8bebb7c52377b554062373214a1  INM7102AVD_M7100AVD_RTL8188ETV_8188EU_GC0329_s
   * uboot's magic strings were not found in NAND, FELix even turns off NAND before flashing uboot
   * if you know where that copy lives on TAB744 (SPI??) it'd be best to read out and use this cold copy (that is, if you really care to very closely build/recover the factory state)
 
-* ``M7100AVD A33 m7100nobt sdkv1.0rc7 20140617`` on pan.baidu.com might also be worth a look, version stringed ``U-Boot 2011.09-rc1-00009-g9b33a0b-dirty (Jun 06 2014 - 10:17:00)``; if you experience problems with the first, try unpacking the fw img, exchange ``u-boot.fex`` inside by ``u-boot.fex.from_fwimg_m7100avd_20140617_but_with_inm7102avd_script.bin``, repack and reflash (untested!)
+* ``M7100AVD A33 m7100nobt sdkv1.0rc7 20140617`` on pan.baidu.com might also be worth a look, version stringed ``U-Boot 2011.09-rc1-00009-g9b33a0b-dirty (Jun 06 2014 - 10:17:00)``
+  * if you experience problems with the first, try unpacking the fw img,
+  * exchange ``u-boot.fex`` with ``u-boot.fex.from_fwimg_m7100avd_20140617_but_with_inm7102avd_script.bin``,
+  * repack and reflash (untested!)
 
-* all u-boot.fex versions of this repo were updated with the same script.bin, from and for TAB744 20140917
+* all u-boot.fex versions of this repo were updated with the same script.bin, from and for TAB744, dating 20140917
 
 
 ## modification _not_ inside img, but useful
