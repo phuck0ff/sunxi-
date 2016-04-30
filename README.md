@@ -4,6 +4,7 @@ Files to drive or repair TAB744 INM7102AVD M7100AVD RTL8188ETV 8188EU GC0329 sun
 * First try ``cat INM71* | unxz > inofficial-stock.img`` and flash firmware using LiveSuit.
 * If unsuccessful, other files might help you debug and cook a firmware that works for you.
 
+
 ## checksums for firmware
 ```bash
 # md5sum
@@ -14,8 +15,9 @@ bce0f8bebb7c52377b554062373214a1  INM7102AVD_M7100AVD_RTL8188ETV_8188EU_GC0329_s
 83c6331a2105d93dbc00dec01d9245c8e09bd1e63625c1294eac3106611c1aa3  INM7102AVD_M7100AVD_RTL8188ETV_8188EU_GC0329_sun8iw5p1_astar_m7100nobt_20140917.img
 ```
 
+
 ## modifications made (.orig files are included in img)
-```bash
+```diff
 --- ramdisk/default.prop.orig
 +++ ramdisk/default.prop
 @@ -1,7 +1,8 @@
@@ -52,11 +54,19 @@ bce0f8bebb7c52377b554062373214a1  INM7102AVD_M7100AVD_RTL8188ETV_8188EU_GC0329_s
  ro.setupwizard.mode=OPTIONAL
  ro.com.google.gmsversion=4.4_r3
 ```
+* u-boot.fex, version string ``U-Boot 2011.09-rc1-00098-g4239ee7 (May 30 2014 - 08:57:03)``, was taken from ``M7100AVD A33 m7100nobt 20140603`` firmware shared on pan.baidu.com (``M7100AVD A33 wifi+bt 20140604`` has the same u-boot version) and updated using ``mod_update/update_uboot u-boot.fex inm7102avd_dumped_script.bin`` command - the result was used to build the firmware image as available in this repo
+
+* trying to use extracts from a live and running inm7102avd device's ddr ram in FES mode did not result in a flashable firmware image; since they have a slightly different version string, ``U-Boot 2011.09-rc1-00000-g4097eae-dirty (Sep 17 2014 - 13:35:40)``, these are in this repo for reference and experimentation
+
+* ``M7100AVD A33 m7100nobt sdkv1.0rc7 20140617`` on pan.baidu.com might also be worth a look, version stringed ``U-Boot 2011.09-rc1-00009-g9b33a0b-dirty (Jun 06 2014 - 10:17:00)``; if you experience problems with the first, try exchanging ``u-boot.fex`` by ``u-boot.fex.from_fwimg_m7100avd_20140617_but_with_inm7102avd_script.bin``, repack and reflash
+
+* a quick and dirty indicator to find out, if an u-boot.fex is married with the correct script.bin is to grep it for TAB744; all u-boot.fex versions of this repo were updated with the same script.bin, from and for TAB744
+
 
 ## modification _not_ inside img, but useful
 * use imgrepacker, umkbootimg, unpack_ramdisk to include
 * it lets non-root users use dmesg
-```bash
+```diff
 --- ramdisk/init.rc.orig
 +++ ramdisk/init.rc
 @@ -102,7 +102,7 @@
@@ -69,6 +79,7 @@ bce0f8bebb7c52377b554062373214a1  INM7102AVD_M7100AVD_RTL8188ETV_8188EU_GC0329_s
      write /proc/sys/vm/mmap_min_addr 32768
      write /proc/sys/net/ipv4/ping_group_range "0 2147483647"
 ```
+
 
 ## log of successful livesuit flash
 ```bash
@@ -316,3 +327,4 @@ L302, Finished to call Tools.entry_fes_thread.
 Dev Plugout The Device Path is: /dev/aw_efex0
 Dev Plugout The Device Path is: /dev/aw_efex0
 ```
+
