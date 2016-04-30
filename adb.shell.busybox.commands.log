@@ -1,0 +1,43 @@
+BusyBox v1.18.3 (2012-12-03 15:06:10 CST) multi-call binary.
+Copyright (C) 1998-2009 Erik Andersen, Rob Landley, Denys Vlasenko
+and others. Licensed under GPLv2.
+See source distribution for full notice.
+
+Usage: busybox [function] [arguments]...
+   or: busybox --list[-full]
+   or: function [arguments]...
+
+	BusyBox is a multi-call binary that combines many common Unix
+	utilities into a single executable.  Most people will create a
+	link to busybox for each function they wish to use and BusyBox
+	will act like whatever it was invoked as.
+
+Currently defined functions:
+	[, [[, addgroup, adduser, ar, arping, ash, awk, basename, bunzip2,
+	bzcat, cat, catv, chattr, chgrp, chmod, chown, chroot, chrt, chvt,
+	cksum, clear, cmp, cp, cpio, crond, crontab, cut, date, dc, dd,
+	deallocvt, delgroup, deluser, devmem, df, diff, dirname, dmesg, dnsd,
+	dnsdomainname, dos2unix, du, dumpkmap, echo, egrep, eject, env,
+	ether-wake, expr, false, fdflush, fdformat, fdisk, fgrep, find, fold,
+	free, freeramdisk, fsck, fuser, getopt, getty, grep, gunzip, gzip,
+	halt, hdparm, head, hexdump, hostid, hostname, hwclock, id, ifconfig,
+	ifdown, ifup, inetd, init, insmod, install, ionice, iostat, ip, ipaddr,
+	ipcrm, ipcs, iplink, iproute, iprule, iptunnel, kill, killall,
+	killall5, klogd, last, length, less, linux32, linux64, linuxrc, ln,
+	loadfont, loadkmap, logger, login, logname, losetup, ls, lsattr, lsmod,
+	lspci, lsusb, lzcat, lzma, makedevs, md5sum, mdev, mesg, microcom,
+	mkdir, mkdosfs, mke2fs, mkfifo, mkfs.ext2, mkfs.vfat, mknod, mkswap,
+	mktemp, modinfo, modprobe, more, mount, mountpoint, mpstat, mt, mv,
+	nameif, netstat, nice, nohup, nslookup, od, openvt, passwd, patch,
+	pidof, ping, pipe_progress, pivot_root, poweroff, printenv, printf, ps,
+	pwd, rdate, readahead, readlink, readmbr, readprofile, realpath,
+	reboot, renice, reset, resize, rm, rmdir, rmmod, route, run-parts,
+	runlevel, sed, seq, setarch, setconsole, setkeycodes, setlogcons,
+	setsid, sh, sha1sum, sha256sum, sha512sum, sleep, sort,
+	start-stop-daemon, strings, stty, su, sulogin, swapoff, swapon,
+	switch_root, sync, sysctl, syslogd, tail, tar, tee, telnet, test, tftp,
+	time, top, touch, tr, traceroute, true, tty, udhcpc, umount, uname,
+	uniq, unix2dos, unlzma, unxz, unzip, uptime, usleep, uudecode,
+	uuencode, vconfig, vi, vlock, watch, watchdog, wc, wget, which, who,
+	whoami, xargs, xz, xzcat, yes, zcat
+
