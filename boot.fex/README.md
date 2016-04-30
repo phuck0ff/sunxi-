@@ -1,3 +1,4 @@
+```bash
 unmkbootimg version 1.2 - Mikael Q Kuisma <kuisma@ping.se>
 Kernel size 10154396
 Kernel address 0x40008000
@@ -23,3 +24,4 @@ All done.
 To recompile this image, use:
   mkbootimg --kernel zImage --ramdisk initramfs.cpio.gz --base 0x40000000 -o new_boot.img
 ---------------
+```
