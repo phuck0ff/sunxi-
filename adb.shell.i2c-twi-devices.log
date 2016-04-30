@@ -1,0 +1,6 @@
+lrwxrwxrwx root     root              2016-05-01 00:52 0-0038 -> ../../../devices/platform/twi.0/i2c-0/0-0038
+lrwxrwxrwx root     root              2016-05-01 00:52 1-001d -> ../../../devices/platform/twi.1/i2c-1/1-001d
+lrwxrwxrwx root     root              2016-05-01 00:52 2-0031 -> ../../../devices/platform/twi.2/i2c-2/2-0031
+lrwxrwxrwx root     root              2016-04-30 20:54 i2c-0 -> ../../../devices/platform/twi.0/i2c-0
+lrwxrwxrwx root     root              2016-04-30 20:54 i2c-1 -> ../../../devices/platform/twi.1/i2c-1
+lrwxrwxrwx root     root              2016-04-30 20:54 i2c-2 -> ../../../devices/platform/twi.2/i2c-2
