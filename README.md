@@ -1,10 +1,76 @@
 # tab744
 Files to drive or repair TAB744 INM7102AVD M7100AVD RTL8188ETV 8188EU GC0329 sun8iw5p1 astar m7100nobt tablets.
 
-* First try to unxz and flash the ``img.xz`` firmware image using LiveSuit.
-* If unsuccessful, all other files might help you debug and cook a firmware that works for you.
+* First try ``cat INM71* | unxz > inofficial-stock.img`` and flash firmware using LiveSuit.
+* If unsuccessful, other files might help you debug and cook a firmware that works for you.
 
-Log of successful flash looks like this:
+## checksums for firmware
+```bash
+# md5sum
+bce0f8bebb7c52377b554062373214a1  INM7102AVD_M7100AVD_RTL8188ETV_8188EU_GC0329_sun8iw5p1_astar_m7100nobt_20140917.img.xz
+6c91e974ca4681e6f61798dce5f93f06  INM7102AVD_M7100AVD_RTL8188ETV_8188EU_GC0329_sun8iw5p1_astar_m7100nobt_20140917.img
+# sha256sum
+5ae64153b7cc5ce0ef84871df5c2df70cc4a8c455631ff04e67b428475a47fb3  INM7102AVD_M7100AVD_RTL8188ETV_8188EU_GC0329_sun8iw5p1_astar_m7100nobt_20140917.img.xz
+83c6331a2105d93dbc00dec01d9245c8e09bd1e63625c1294eac3106611c1aa3  INM7102AVD_M7100AVD_RTL8188ETV_8188EU_GC0329_sun8iw5p1_astar_m7100nobt_20140917.img
+```
+
+## modifications made (.orig files are included in img)
+```bash
+--- ramdisk/default.prop.orig
++++ ramdisk/default.prop
+@@ -1,7 +1,8 @@
+ #
+ # ADDITIONAL_DEFAULT_PROPERTIES
+ #
+-ro.secure=1
++ro.adb.secure=0
++ro.secure=0
+ ro.allow.mock.location=0
+-ro.debuggable=0
+-persist.sys.usb.config=none
++ro.debuggable=1
++persist.sys.usb.config=adb
+--- system/build.prop.orig
++++ system/build.prop
+@@ -69,7 +69,7 @@
+ dalvik.vm.heapmaxfree=8m
+ ro.sw.embeded.telephony=false
+ persist.sys.timezone=Europe/Amsterdam
+-persist.sys.usb.config=mass_storage
++persist.sys.usb.config=mass_storage,adb
+ ro.udisk.lable=TAB744
+ ro.font.scale=1.0
+ ro.hwa.force=false
+@@ -79,7 +79,8 @@
+ debug.hwui.render_dirty_regions=false
+ ro.sys.mutedrm=true
+ ro.yifang.airplane=1
+-ro.adb.secure=1
++ro.adb.secure=0
++ro.secure=0
+ ro.sf.lcd_density=160
+ ro.setupwizard.mode=OPTIONAL
+ ro.com.google.gmsversion=4.4_r3
+```
+
+## modification _not_ inside img, but useful
+* use imgrepacker, umkbootimg, unpack_ramdisk to include
+* it lets non-root users use dmesg
+```bash
+--- ramdisk/init.rc.orig
++++ ramdisk/init.rc
+@@ -102,7 +102,7 @@
+     write /proc/sys/kernel/sched_child_runs_first 0
+     write /proc/sys/kernel/randomize_va_space 2
+     write /proc/sys/kernel/kptr_restrict 2
+-    write /proc/sys/kernel/dmesg_restrict 1
++    write /proc/sys/kernel/dmesg_restrict 0
+        write  /proc/sys/vm/legacy_va_layout 1
+     write /proc/sys/vm/mmap_min_addr 32768
+     write /proc/sys/net/ipv4/ping_group_range "0 2147483647"
+```
+
+## log of successful livesuit flash
 ```bash
 --------------Init Called------------------
 workDir /home/user/sunxi-livesuit/x86-64/LiveSuit
